@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عملاؤنا - آفاق المتكاملة لتقنية المعلومات</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+        }
+
+        /* Clients Carousel Styles */
+        .clients-carousel-wrapper {
+            overflow: hidden;
+            padding: 20px 0;
+            direction: ltr;
+            position: relative;
+        }
+
+        .clients-carousel-track {
+            display: flex;
+            gap: 2rem;
+            width: max-content;
+            animation: scroll-seamless 30s linear infinite;
+            will-change: transform;
+        }
+
+        .clients-carousel-track:hover {
+            animation-play-state: paused;
+        }
+
+        .clients-carousel-item {
+            min-width: 220px;
+            width: 220px;
+            height: 140px;
+            background: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(88, 42, 110, 0.08);
+            border: 2px solid rgba(88, 42, 110, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
+        .clients-carousel-item:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 8px 24px rgba(88, 42, 110, 0.15);
+            border-color: rgba(228, 35, 123, 0.2);
+        }
+
+        @keyframes scroll-seamless {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-33.333%));
+            }
+        }
+
+        .clients-carousel-item img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Top Bar Container -->
+    <div id="topbar-container"></div>
+
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Page Header -->
+    <section class="py-20" style="background: linear-gradient(to bottom right, #572a6e, #572a6e, #e4237b)">
+        <div class="container mx-auto px-4">
+            <div class="text-center text-white">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">عملاؤنا المميزون</h1>
+                <p class="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
+                    نفخر بثقة عملائنا وننجح في تقديم حلول تقنية مبتكرة تلبي احتياجاتهم وتحقق أهدافهم
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div class="p-8">
+                    <div class="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4" style="background: linear-gradient(to bottom right, #582a6e, #e3237b)">
+                        <i class="fas fa-users text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold mb-2" style="color: #582a6e">300+</h3>
+                    <p class="text-gray-600 font-medium">عميل راض</p>
+                </div>
+
+                <div class="p-8">
+                    <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-project-diagram text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold mb-2" style="color: #582a6e">500+</h3>
+                    <p class="text-gray-600 font-medium">مشروع منجز</p>
+                </div>
+
+                <div class="p-8">
+                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-industry text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold mb-2" style="color: #582a6e">8</h3>
+                    <p class="text-gray-600 font-medium">قطاعات متخصصة</p>
+                </div>
+
+                <div class="p-8">
+                    <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-award text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold mb-2" style="color: #582a6e">15+</h3>
+                    <p class="text-gray-600 font-medium">سنة خبرة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logos Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">عملاؤنا الكرام</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    شركات ومؤسسات رائدة اختارت آفاق المتكاملة كشريك تقني موثوق لتحقيق أهدافها الرقمية
+                </p>
+            </div>
+
+            <!-- Main Client Logos -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center justify-items-center mb-16">
+                <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-xs transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+                    <img src="images/Alfanar_brand_logo.png" alt="شركة الفنار" class="h-24 w-auto mx-auto">
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-xs transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+                    <img src="images/Al-Mahmal.jpg" alt="شركة المحمل" class="h-24 w-auto mx-auto">
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-xs transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+                    <img src="images/logo.png" alt="عيادات ميلا" class="h-24 w-auto mx-auto">
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-xs transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+                    <img src="images/SMSA_Express_logo_(English_version).svg.png" alt="SMSA Express" class="h-24 w-auto mx-auto">
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-xs transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+                    <img src="images/Solutions.PNG" alt="STC Solutions" class="h-24 w-auto mx-auto">
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-xs transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+                    <img src="images/Ubaad.png" alt="مؤسسة أبعاد الفخامة" class="h-24 w-auto mx-auto">
+                </div>
+            </div>
+
+            <!-- Moving Carousel -->
+            <div class="relative overflow-hidden bg-white rounded-xl p-8 shadow-lg">
+                <div class="clients-carousel-wrapper">
+                    <div class="clients-carousel-track" id="carousel-track">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Container -->
+    <div id="cta-container"></div>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/clients.js"></script>
+</body>
+</html>

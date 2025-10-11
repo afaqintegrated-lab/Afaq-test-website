@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القطاع التعليمي - آفاق المتكاملة لتقنية المعلومات</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Top Bar Container -->
+    <div id="topbar-container"></div>
+
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Hero Section -->
+    <section class="py-20 text-white" style="background: linear-gradient(135deg, #22c55e 0%, #16a34a 30%, #15803d 70%, #166534 100%)">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0">
+                    <h1 class="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+                        حلول تكنولوجية
+                        <span class="block text-yellow-300">متطورة للتعليم</span>
+                    </h1>
+                    <p class="text-xl lg:text-2xl mb-8 text-green-100 leading-relaxed">
+                        نساعد المؤسسات التعليمية على الاستفادة من أحدث التقنيات لتحسين جودة التعليم وتطوير العملية التعليمية
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-6 sm:gap-8">
+                        <a href="#solutions" class="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center">
+                            <i class="fas fa-rocket ml-2"></i>
+                            اكتشف حلولنا
+                        </a>
+                        <a href="contact.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors flex items-center justify-center">
+                            <i class="fas fa-phone ml-2"></i>
+                            تواصل معنا
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <div class="w-96 h-96 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                            <div class="w-80 h-80 bg-white bg-opacity-30 rounded-full flex items-center justify-center">
+                                <div class="w-64 h-64 bg-white rounded-full flex items-center justify-center shadow-xl">
+                                    <i class="fas fa-graduation-cap text-green-600 text-8xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-20 bg-gradient-to-br from-gray-50 to-green-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+                    حلولنا <span class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">التعليمية</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    نقدم مجموعة شاملة من الحلول التقنية المتطورة التي تساعد المؤسسات التعليمية على تحقيق أهدافها وتحسين جودة التعليم
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- School Management System -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-school text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">نظام إدارة المدارس</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        نظام شامل لإدارة جميع العمليات المدرسية من تسجيل الطلاب، إدارة الدرجات، والجداول الدراسية، إلى التواصل مع أولياء الأمور
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600 mb-6">
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>إدارة الطلاب والمعلمين</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>نظام الدرجات والتقييم</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>الجداول الدراسية</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>التواصل مع أولياء الأمور</li>
+                    </ul>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-pink-600 transition-colors font-semibold">
+                        اطلب المزيد من المعلومات
+                    </button>
+                </div>
+
+                <!-- E-Learning Platform -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-laptop text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">منصة التعليم الإلكتروني</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        منصة متقدمة للتعليم عن بُعد تدعم الفصول الافتراضية، المحتوى التفاعلي، والتقييمات الإلكترونية
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600 mb-6">
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>الفصول الافتراضية</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>المحتوى التفاعلي</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>الواجبات والاختبارات</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>تتبع تقدم الطلاب</li>
+                    </ul>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-pink-600 transition-colors font-semibold">
+                        اطلب المزيد من المعلومات
+                    </button>
+                </div>
+
+                <!-- University Management System -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-700 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-university text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">نظام إدارة الجامعات</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        حل متكامل لإدارة الجامعات والكليات يشمل القبول، التسجيل، الشؤون الأكاديمية، والخدمات الطلابية
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600 mb-6">
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>نظام القبول والتسجيل</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>إدارة الكليات والأقسام</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>الشؤون الأكاديمية</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>الخدمات الطلابية</li>
+                    </ul>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-pink-600 transition-colors font-semibold">
+                        اطلب المزيد من المعلومات
+                    </button>
+                </div>
+
+                <!-- Library Management System -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-amber-500 to-orange-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-book-open text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">نظام إدارة المكتبات</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        نظام شامل لإدارة المكتبات الرقمية والتقليدية مع إمكانيات البحث المتقدم وإدارة الإعارة
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600 mb-6">
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>فهرسة الكتب الرقمية</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>نظام الإعارة والإرجاع</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>البحث المتقدم</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>التقارير والإحصائيات</li>
+                    </ul>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-pink-600 transition-colors font-semibold">
+                        اطلب المزيد من المعلومات
+                    </button>
+                </div>
+
+                <!-- Smart Classrooms -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chalkboard text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">الفصول الذكية</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        حلول الفصول الذكية التي تدمج التكنولوجيا الحديثة لتعزيز التفاعل والمشاركة في البيئة التعليمية
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600 mb-6">
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>السبورات التفاعلية</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>أنظمة العرض المتقدمة</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>أجهزة التحكم الذكية</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>المحتوى التفاعلي</li>
+                    </ul>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-pink-600 transition-colors font-semibold">
+                        اطلب المزيد من المعلومات
+                    </button>
+                </div>
+
+                <!-- Learning Analytics -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                    <div class="w-16 h-16 bg-gradient-to-br from-rose-500 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">تحليلات التعلم</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        أدوات تحليلية متقدمة لفهم أداء الطلاب وتحسين فعالية التعليم من خلال البيانات والذكاء الاصطناعي
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600 mb-6">
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>تحليل أداء الطلاب</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>التنبؤ بالنتائج</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>تقارير تفاعلية</li>
+                        <li><i class="fas fa-check text-green-600 ml-2"></i>توصيات مخصصة</li>
+                    </ul>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-pink-600 transition-colors font-semibold">
+                        اطلب المزيد من المعلومات
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+                    لماذا <span class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">نحن</span>؟
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    نتميز بخبرتنا الواسعة في مجال تكنولوجيا التعليم والتزامنا بتقديم أفضل الحلول المبتكرة
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-lightbulb text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">الابتكار المستمر</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        نواكب أحدث التطورات التقنية ونطور حلولاً مبتكرة تلبي احتياجات المستقبل
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-users text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">فريق متخصص</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        فريق من الخبراء والمتخصصين في تكنولوجيا التعليم وتطوير النظم التعليمية
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-headset text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">دعم فني 24/7</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        نقدم دعماً فنياً متواصلاً لضمان استمرارية العملية التعليمية دون انقطاع
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">الأمان والموثوقية</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        نضمن أعلى معايير الأمان وحماية البيانات مع موثوقية عالية في الأداء
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+                    التقنيات <span class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">المستخدمة</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    نستخدم أحدث التقنيات والأدوات لضمان تقديم حلول عالية الجودة والأداء
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-react text-3xl text-blue-500"></i>
+                    </div>
+                    <span class="text-sm text-gray-600 font-semibold">React</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-angular text-3xl text-red-600"></i>
+                    </div>
+                    <span class="text-sm text-gray-600 font-semibold">Angular</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-node-js text-3xl text-green-600"></i>
+                    </div>
+                    <span class="text-sm text-gray-600 font-semibold">Node.js</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-python text-3xl text-yellow-500"></i>
+                    </div>
+                    <span class="text-sm text-gray-600 font-semibold">Python</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-aws text-3xl text-orange-500"></i>
+                    </div>
+                    <span class="text-sm text-gray-600 font-semibold">AWS</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fab fa-docker text-3xl text-blue-400"></i>
+                    </div>
+                    <span class="text-sm text-gray-600 font-semibold">Docker</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Container -->
+    <div id="cta-container"></div>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/education.js"></script>
+</body>
+</html>

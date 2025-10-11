@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر آفاق - آفاق المتكاملة لتقنية المعلومات</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+        }
+
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9999;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translate(-50%, -20px);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, 0);
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">
+        <div class="bg-green-600 text-white px-6 py-4 rounded-lg shadow-xl flex items-center gap-3">
+            <i class="fas fa-check-circle text-2xl"></i>
+            <span id="toast-message">تم إضافة المنتج إلى السلة بنجاح!</span>
+        </div>
+    </div>
+
+    <!-- Top Bar Container -->
+    <div id="topbar-container"></div>
+
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Page Header -->
+    <section class="py-20" style="background: linear-gradient(to bottom right, #572a6e, #572a6e, #e4237b)">
+        <div class="container mx-auto px-4">
+            <div class="text-center text-white">
+                <!-- Breadcrumb -->
+                <div class="mb-6 text-sm">
+                    <a href="index.html" class="hover:underline opacity-80">الرئيسية</a>
+                    <span class="mx-2">/</span>
+                    <span>المتجر</span>
+                </div>
+
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">متجر آفاق</h1>
+                <p class="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
+                    اكتشف مجموعتنا المتميزة من خدمات الاستضافة والحلول التقنية
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Content -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <!-- Cart Summary -->
+            <div class="mb-12 flex justify-between items-center">
+                <h2 class="text-3xl font-bold text-gray-800">تصفح حسب الفئة</h2>
+                <a href="cart.html" class="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full hover:shadow-lg transition-all duration-300 flex items-center gap-2">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>السلة (<span id="cart-count">0</span>)</span>
+                </a>
+            </div>
+
+            <!-- Products by Category -->
+            <div id="categories-container">
+                <!-- Will be populated by JavaScript -->
+            </div>
+
+            <!-- CTA Section -->
+            <div class="mt-16 text-center bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12 text-white">
+                <h3 class="text-3xl font-bold mb-4">هل تحتاج مساعدة في اختيار المنتج المناسب؟</h3>
+                <p class="text-xl mb-8 opacity-90">
+                    فريقنا المتخصص مستعد لمساعدتك في اختيار الحل الأمثل لاحتياجاتك
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="tel:+966573673270" class="bg-white text-purple-600 px-8 py-4 rounded-full font-bold hover:shadow-lg transition-all duration-300 flex items-center gap-2">
+                        <i class="fas fa-phone"></i>
+                        اتصل بنا الآن
+                    </a>
+                    <a href="mailto:info@afaqinfotech.com" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-purple-600 transition-all duration-300 flex items-center gap-2">
+                        <i class="fas fa-envelope"></i>
+                        راسلنا بالإيميل
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/products-data.js"></script>
+    <script src="js/store.js"></script>
+</body>
+</html>

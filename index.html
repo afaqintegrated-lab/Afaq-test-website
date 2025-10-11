@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آفاق المتكاملة لتكنولوجيا المعلومات - حلول تقنية متكاملة</title>
+    <meta name="description" content="آفاق المتكاملة لتكنولوجيا المعلومات - شريكك الموثوق لتقديم حلول تقنية مبتكرة في الشبكات، الأمن، والبرمجيات للقطاعات الصحية والتعليمية والتجارية">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+
+    <!-- Google Fonts - Cairo & Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Configuration (Load FIRST) -->
+    <script src="js/config.js"></script>
+</head>
+<body class="font-cairo bg-gray-50 antialiased">
+
+    <!-- Top Bar (Dynamic - injected by components.js) -->
+    <div id="topbar-container"></div>
+
+    <!-- Header (Dynamic - injected by components.js) -->
+    <div id="header-container"></div>
+
+    <!-- Hero Slider -->
+    <section id="hero" class="relative min-h-screen flex items-center justify-center bg-cover bg-center overflow-hidden" style="background-image: url('images/img1.png'); background-size: cover; background-position: center;">
+        <div class="container mx-auto px-4 text-center text-white">
+            <div class="max-w-4xl mx-auto">
+                <!-- Typewriter Title -->
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight min-h-[80px] md:min-h-[120px]">
+                    <span id="typewriter-text" class="inline-block"></span>
+                    <span id="typewriter-cursor" class="inline-block w-1 h-[1.2em] bg-white ml-1 align-middle opacity-100" style="transition: opacity 0.1s;"></span>
+                </h1>
+
+                <!-- Subtitle -->
+                <p class="text-lg md:text-xl lg:text-2xl mb-10 leading-relaxed opacity-90 max-w-2xl mx-auto animate-fade-in">
+                    تدعم أعمالك وتضمن لك بيئة عمل آمنة ومستقرة
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8 mt-8">
+                    <a href="services.html" class="bg-white text-blue-800 px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center">
+                        اكتشف خدماتنا
+                        <i class="fas fa-arrow-left mr-2 text-sm"></i>
+                    </a>
+                    <a href="contact.html" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-blue-800 transition-all duration-300 transform hover:-translate-y-1">
+                        احجز استشارة مجانية
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-8">من نحن</h2>
+                <div class="w-32 h-1 bg-gradient-to-r from-blue-800 to-teal-600 mx-auto mb-10"></div>
+                <p class="text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto">
+                    آفاق المتكاملة لتكنولوجيا المعلومات، شريكك الموثوق لتقديم حلول تقنية مبتكرة في الشبكات، الأمن، والبرمجيات. نضع خبرتنا بين يديك لرفع الكفاءة وحماية أعمالك.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Vision -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-eye text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">رؤيتنا</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        أن نكون الخيار الأول للعملاء من خلال تقديم خدمات ذات جودة عالية تفوق توقعاتهم
+                    </p>
+                </div>
+
+                <!-- Mission -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-bullseye text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">رسالتنا</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        نلتزم ببناء علاقات طويلة المدى مع عملائنا، عبر تقديم خدمات متميزة تعتمد على الابتكار
+                    </p>
+                </div>
+
+                <!-- Goals -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-indigo-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-trophy text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">أهدافنا</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        نسعى إلى الريادة في قطاع تقنية المعلومات من خلال تقديم حلول وخدمات متكاملة
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectors Section (Dynamic - populated by main.js from config.js) -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-8">القطاعات الرئيسية</h2>
+                <div class="w-32 h-1 bg-gradient-to-r from-blue-800 to-teal-600 mx-auto mb-10"></div>
+                <p class="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto">
+                    حلول متخصصة ومبتكرة تلبي احتياجات مختلف القطاعات بكفاءة وجودة عالية
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6" id="sectors-grid">
+                <!-- Populated by JavaScript from config.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section (Dynamic - populated by main.js from config.js) -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-8">أبرز الحلول والخدمات</h2>
+                <div class="w-32 h-1 bg-gradient-to-r from-blue-800 to-teal-600 mx-auto mb-10"></div>
+                <p class="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto">
+                    تقنيات متطورة وحلول شاملة تضمن نجاح مشاريعك الرقمية وتحقق أهدافك المستقبلية
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6" id="solutions-grid">
+                <!-- Populated by JavaScript from config.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Carousel (Dynamic - populated by main.js from config.js) -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">عملاؤنا الكرام</h2>
+                <p class="text-gray-600">نفخر بثقة عملائنا وشراكتهم معنا</p>
+            </div>
+
+            <div class="clients-carousel-wrapper">
+                <div class="clients-carousel-track" id="clients-carousel">
+                    <!-- Populated by JavaScript from config.js -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-20" style="background: linear-gradient(to bottom right, #582a6e, #e3237b)">
+        <!-- Wireframe Background -->
+        <canvas id="cta-canvas" class="absolute top-0 left-0 w-full h-full"></canvas>
+
+        <!-- CTA Content -->
+        <div class="container mx-auto px-4 text-center text-white relative z-10">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">ابدأ رحلتك التقنية معنا اليوم</h2>
+                <p class="text-xl mb-8 opacity-90 leading-relaxed">
+                    احصل على استشارة مجانية واكتشف كيف يمكن لحلولنا التقنية أن تحول أعمالك
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8">
+                    <a href="contact.html" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-bold text-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                        اتصل بنا الآن
+                    </a>
+                    <a href="contact.html" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-purple-600 transition-all duration-300">
+                        احجز استشارة مجانية
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Dynamic - injected by components.js) -->
+    <div id="footer-container"></div>
+
+    <!-- JavaScript (Load in correct order) -->
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
