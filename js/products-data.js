@@ -497,47 +497,177 @@ const products = [
         isPopular: false
     },
 
-    // Business Systems (8)
+    // Business Systems (20+)
+    // Healthcare Systems
     {
-        id: "healthcare-management-system",
-        name: "نظام إدارة القطاع الصحي",
-        description: "حلول تقنية شاملة للمؤسسات الصحية من المستشفيات والعيادات إلى الصيدليات.",
-        price: 45000,
-        currency: "ر.س",
-        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
+        id: "hospital-management-system",
+        name: "نظام إدارة المستشفيات (HIMS)",
+        description: "حل شامل لإدارة جميع عمليات المستشفى من التسجيل إلى الخروج، يشمل إدارة المرضى والملفات الطبية الإلكترونية وحجز المواعيد والأسرة والكادر الطبي والصيدلية والمختبرات والفواتير.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop",
         features: [
-            "نظام إدارة المستشفيات",
-            "نظام إدارة العيادات",
-            "نظام إدارة الصيدليات",
-            "أنظمة إدارة الأشعة"
+            "إدارة المرضى والتسجيل",
+            "الملفات الطبية الإلكترونية",
+            "حجز المواعيد الذكي",
+            "إدارة الأسرة والغرف",
+            "إدارة الكادر الطبي",
+            "إدارة الصيدلية والمختبرات",
+            "الفواتير والمحاسبة الطبية",
+            "تكامل مع أنظمة التأمين الصحي"
         ],
         category: "أنظمة إدارة الأعمال",
         categorySlug: "business-systems",
         isPopular: true
     },
     {
-        id: "education-management-system",
-        name: "نظام إدارة القطاع التعليمي",
-        description: "منصة تعليمية متكاملة تشمل إدارة المدارس والجامعات والتعليم الإلكتروني.",
-        price: 38000,
-        currency: "ر.س",
-        image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop",
+        id: "clinic-management-system",
+        name: "نظام إدارة العيادات",
+        description: "حل مثالي للعيادات الخاصة ومراكز الرعاية الصحية الأولية مع نظام مواعيد متقدم وسجلات طبية ذكية ووصفات إلكترونية.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1629909615957-be38bed28e6e?w=800&h=600&fit=crop",
         features: [
-            "نظام إدارة المدارس",
-            "منصة التعليم الإلكتروني",
-            "نظام إدارة الجامعات",
-            "تحليلات التعلم"
+            "نظام المواعيد المتقدم",
+            "حجز المواعيد أونلاين",
+            "السجلات الطبية الذكية",
+            "الوصفات الإلكترونية",
+            "إدارة قائمة الانتظار",
+            "تذكير تلقائي للمرضى",
+            "قاعدة بيانات الأدوية"
         ],
         category: "أنظمة إدارة الأعمال",
         categorySlug: "business-systems",
         isPopular: false
     },
     {
+        id: "pharmacy-management-system",
+        name: "نظام إدارة الصيدليات",
+        description: "إدارة شاملة للمخزون الدوائي ونقاط البيع مع تتبع المخزون في الوقت الفعلي وتنبيهات نفاد المخزون وإدارة تواريخ الانتهاء.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&h=600&fit=crop",
+        features: [
+            "إدارة المخزون الذكية",
+            "تتبع المخزون في الوقت الفعلي",
+            "تنبيهات نفاد المخزون",
+            "إدارة تواريخ الانتهاء",
+            "نظام باركود متقدم",
+            "نقاط البيع المتطورة",
+            "دعم وسائل الدفع المختلفة"
+        ],
+        category: "أنظمة إدارة الأعمال",
+        categorySlug: "business-systems",
+        isPopular: false
+    },
+    {
+        id: "radiology-management-system",
+        name: "نظام إدارة الأشعة",
+        description: "حلول متخصصة لأقسام الأشعة والتصوير الطبي مع أرشفة الصور الطبية ودعم معيار DICOM والتقارير الإشعاعية.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=600&fit=crop",
+        features: [
+            "أرشفة الصور الطبية",
+            "دعم معيار DICOM",
+            "أرشفة آمنة ومضغوطة",
+            "التقارير الإشعاعية",
+            "قوالب تقارير جاهزة",
+            "توقيع إلكتروني",
+            "تكامل مع أنظمة المستشفى"
+        ],
+        category: "أنظمة إدارة الأعمال",
+        categorySlug: "business-systems",
+        isPopular: false
+    },
+    // Education Systems
+    {
+        id: "school-management-system",
+        name: "نظام إدارة المدارس",
+        description: "نظام شامل لإدارة جميع العمليات المدرسية من تسجيل الطلاب وإدارة الدرجات والجداول الدراسية إلى التواصل مع أولياء الأمور.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&h=600&fit=crop",
+        features: [
+            "إدارة الطلاب والمعلمين",
+            "نظام الدرجات والتقييم",
+            "الجداول الدراسية الذكية",
+            "التواصل مع أولياء الأمور",
+            "الحضور والغياب الإلكتروني",
+            "إدارة الفصول والمواد",
+            "التقارير والإحصائيات التعليمية"
+        ],
+        category: "أنظمة إدارة الأعمال",
+        categorySlug: "business-systems",
+        isPopular: false
+    },
+    {
+        id: "elearning-platform",
+        name: "منصة التعليم الإلكتروني",
+        description: "منصة متقدمة للتعليم عن بُعد تدعم الفصول الافتراضية والمحتوى التفاعلي والتقييمات الإلكترونية وتتبع تقدم الطلاب.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=600&fit=crop",
+        features: [
+            "الفصول الافتراضية المباشرة",
+            "المحتوى التفاعلي والوسائط المتعددة",
+            "الواجبات والاختبارات الإلكترونية",
+            "تتبع تقدم الطلاب",
+            "منتديات النقاش والتفاعل",
+            "شهادات إلكترونية",
+            "تحليلات الأداء والتعلم"
+        ],
+        category: "أنظمة إدارة الأعمال",
+        categorySlug: "business-systems",
+        isPopular: true
+    },
+    {
+        id: "university-management-system",
+        name: "نظام إدارة الجامعات",
+        description: "حل متكامل لإدارة الجامعات والكليات يشمل القبول والتسجيل والشؤون الأكاديمية والخدمات الطلابية.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=600&fit=crop",
+        features: [
+            "نظام القبول والتسجيل",
+            "إدارة الكليات والأقسام",
+            "الشؤون الأكاديمية",
+            "الخدمات الطلابية",
+            "نظام الساعات المعتمدة",
+            "إدارة أعضاء هيئة التدريس",
+            "البوابة الإلكترونية للطلاب"
+        ],
+        category: "أنظمة إدارة الأعمال",
+        categorySlug: "business-systems",
+        isPopular: false
+    },
+    {
+        id: "library-management-system",
+        name: "نظام إدارة المكتبات",
+        description: "نظام شامل لإدارة المكتبات الرقمية والتقليدية مع إمكانيات البحث المتقدم وإدارة الإعارة والفهرسة الرقمية.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=600&fit=crop",
+        features: [
+            "فهرسة الكتب الرقمية",
+            "نظام الإعارة والإرجاع",
+            "البحث المتقدم",
+            "قاعدة بيانات الكتب والدوريات",
+            "التقارير والإحصائيات",
+            "إدارة الأعضاء والاشتراكات",
+            "المكتبة الرقمية"
+        ],
+        category: "أنظمة إدارة الأعمال",
+        categorySlug: "business-systems",
+        isPopular: false
+    },
+    // Business Systems
+    {
         id: "business-erp-crm-system",
         name: "نظام إدارة الأعمال التجارية ERP & CRM",
         description: "نظام تخطيط موارد المؤسسة ERP المتكامل مع نظام إدارة علاقات العملاء CRM. يشمل إدارة المالية والموارد البشرية والمخازن والمبيعات والتسويق مع ذكاء الأعمال المتقدم.",
-        price: 42000,
-        currency: "ر.س",
+        price: null,
+        currency: "حسب الطلب",
         image: "https://placehold.co/800x600/ea580c/ffffff?text=ERP+CRM+Systems",
         features: [
             "نظام ERP - إدارة المالية والمحاسبة والموارد البشرية والمخازن",
@@ -551,12 +681,13 @@ const products = [
         categorySlug: "business-systems",
         isPopular: true
     },
+    // Finance Systems
     {
         id: "finance-management-system",
         name: "نظام إدارة القطاع المالي",
         description: "حلول مصرفية ومالية متكاملة تشمل الخدمات المصرفية الأساسية، بوابات الدفع الإلكتروني، إدارة المخاطر والامتثال، وإدارة الثروات. مع أعلى معايير الأمان والحماية.",
-        price: 52000,
-        currency: "ر.س",
+        price: null,
+        currency: "حسب الطلب",
         image: "https://placehold.co/800x600/059669/ffffff?text=Finance+Systems",
         features: [
             "نظام الخدمات المصرفية - إدارة الحسابات والمعاملات والقروض",
@@ -570,12 +701,13 @@ const products = [
         categorySlug: "business-systems",
         isPopular: true
     },
+    // Government Systems
     {
         id: "government-management-system",
         name: "نظام إدارة القطاع الحكومي",
         description: "منصة حكومة إلكترونية متكاملة تشمل الخدمات الموحدة، إدارة الوثائق الرقمية، حلول المدن الذكية، وتحليل البيانات الحكومية مع أعلى معايير الأمن السيبراني.",
-        price: 65000,
-        currency: "ر.س",
+        price: null,
+        currency: "حسب الطلب",
         image: "https://placehold.co/800x600/7c3aed/ffffff?text=Government+Systems",
         features: [
             "منصة الحكومة الإلكترونية - بوابة موحدة وهوية رقمية ومدفوعات إلكترونية",
@@ -589,12 +721,13 @@ const products = [
         categorySlug: "business-systems",
         isPopular: false
     },
+    // Industrial Systems
     {
         id: "industrial-management-system",
         name: "نظام إدارة القطاع الصناعي",
         description: "حلول صناعية متكاملة تشمل إدارة التصنيع، سلسلة التوريد، إنترنت الأشياء الصناعي، وإدارة الجودة والأصول. يحسن الإنتاجية ويقلل التكاليف التشغيلية.",
-        price: 48000,
-        currency: "ر.س",
+        price: null,
+        currency: "حسب الطلب",
         image: "https://placehold.co/800x600/64748b/ffffff?text=Industrial+Systems",
         features: [
             "نظام إدارة التصنيع - تخطيط ومراقبة الإنتاج وإدارة المخزون والجودة",
@@ -608,12 +741,13 @@ const products = [
         categorySlug: "business-systems",
         isPopular: false
     },
+    // Telecommunications Systems
     {
         id: "telecommunications-management-system",
         name: "نظام إدارة قطاع الاتصالات",
         description: "منصة شاملة لشركات الاتصالات تشمل إدارة شبكات الجيل الخامس 5G، منصات إنترنت الأشياء، تحليلات البيانات الضخمة، والاتصالات السحابية المتقدمة.",
-        price: 58000,
-        currency: "ر.س",
+        price: null,
+        currency: "حسب الطلب",
         image: "https://placehold.co/800x600/0891b2/ffffff?text=Telecom+Systems",
         features: [
             "شبكات الجيل الخامس 5G - تصميم وتنفيذ وتحسين الأداء وإدارة الطيف",
@@ -627,12 +761,13 @@ const products = [
         categorySlug: "business-systems",
         isPopular: false
     },
+    // Retail Systems
     {
         id: "retail-management-system",
         name: "نظام إدارة التجزئة والمبيعات",
         description: "نظام شامل لإدارة المتاجر ونقاط البيع والتجارة الإلكترونية. يوفر إدارة متكاملة للمخزون والمبيعات والعملاء مع تحليلات ذكية لتحسين الأداء وزيادة المبيعات.",
-        price: 35000,
-        currency: "ر.س",
+        price: null,
+        currency: "حسب الطلب",
         image: "https://placehold.co/800x600/dc2626/ffffff?text=Retail+Systems",
         features: [
             "نظام نقاط البيع POS - واجهة سهلة ودعم وسائل دفع متعددة وطباعة فواتير",
@@ -641,6 +776,45 @@ const products = [
             "إدارة علاقات العملاء - برامج ولاء ونقاط وعروض مخصصة",
             "تحليلات المبيعات - تقارير تفصيلية عن المبيعات والأداء والمخزون",
             "إدارة متعددة الفروع - تكامل كامل بين جميع الفروع والمستودعات"
+        ],
+        category: "أنظمة إدارة الأعمال",
+        categorySlug: "business-systems",
+        isPopular: false
+    },
+    // Security Systems
+    {
+        id: "cybersecurity-system",
+        name: "الأمن السيبراني المتقدم",
+        description: "حلول شاملة لحماية الأنظمة والشبكات من التهديدات السيبرانية المتطورة مع جدران حماية متقدمة وأنظمة كشف التسلل.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop",
+        features: [
+            "جدران الحماية المتقدمة",
+            "أنظمة كشف التسلل",
+            "حماية من البرمجيات الخبيثة",
+            "تحليل التهديدات في الوقت الفعلي",
+            "مراكز العمليات الأمنية SOC",
+            "مراقبة أمنية 24/7"
+        ],
+        category: "أنظمة إدارة الأعمال",
+        categorySlug: "business-systems",
+        isPopular: false
+    },
+    {
+        id: "identity-access-management",
+        name: "إدارة الهويات والصلاحيات",
+        description: "نظام متطور لإدارة هويات المستخدمين والتحكم في الصلاحيات مع مصادقة متعددة العوامل وإدارة مركزية للهويات.",
+        price: null,
+        currency: "حسب الطلب",
+        image: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&h=600&fit=crop",
+        features: [
+            "مصادقة متعددة العوامل",
+            "إدارة مركزية للهويات",
+            "التحكم في الوصول",
+            "مراقبة النشاطات الأمنية",
+            "كشف الأنشطة المشبوهة",
+            "تقارير الامتثال"
         ],
         category: "أنظمة إدارة الأعمال",
         categorySlug: "business-systems",

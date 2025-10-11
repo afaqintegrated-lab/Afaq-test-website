@@ -77,6 +77,11 @@ function renderProductCard(product) {
     const displayFeatures = product.features.slice(0, 3);
     const hasMoreFeatures = product.features.length > 3;
 
+    // Handle price display - if price is null, show "حسب الطلب"
+    const priceDisplay = product.price !== null
+        ? `${product.price.toLocaleString()} <span class="text-lg text-purple-600">${product.currency}</span>`
+        : `<span class="text-lg text-purple-600">${product.currency}</span>`;
+
     return `
         <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group relative">
             ${popularBadge}
@@ -94,7 +99,7 @@ function renderProductCard(product) {
                         ${product.category}
                     </span>
                     <div class="text-2xl font-bold text-gray-800">
-                        ${product.price.toLocaleString()} <span class="text-lg text-purple-600">${product.currency}</span>
+                        ${priceDisplay}
                     </div>
                 </div>
 

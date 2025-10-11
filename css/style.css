@@ -13,39 +13,54 @@ body {
 
 /* Header Styles */
 .sticky-header {
-    position: sticky;
-    top: 36px;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
     z-index: 1000;
     transition: all 0.4s ease;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     background-color: rgb(255, 255, 255);
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .sticky-header.scrolled {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
 
 /* Logo Styles */
 .logo-container {
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .logo-img {
-    height: 120px;
+    height: 80px;
     width: auto;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
     filter: brightness(1.1) contrast(1.1);
     transform-origin: center;
+    display: block;
+    margin: auto 0;
 }
 
 .logo-img.logo-scrolled {
-    transform: scale(0.67);
+    height: 60px;
+}
+
+/* Navigation alignment fix */
+.sticky-header nav {
+    min-height: 80px;
+    align-items: center !important;
+}
+
+.sticky-header.scrolled nav {
+    min-height: 60px;
 }
 
 /* Navigation Link Styles */
