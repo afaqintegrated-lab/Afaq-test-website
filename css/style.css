@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Cairo', 'Tajawal', sans-serif;
+    padding-top: 160px; /* Space for fixed topbar (40px) + header (~120px) */
 }
 
 .font-cairo {
@@ -218,6 +219,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding-top: 140px; /* Reduced spacing for mobile */
+    }
+
     .sticky-header {
         top: 32px;
     }
