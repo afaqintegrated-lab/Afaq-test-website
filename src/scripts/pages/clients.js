@@ -32,14 +32,14 @@ function initClientsCarousel() {
 
     console.log('Initializing carousel...');
 
-    // Client logos data
+    // Client logos data - Use PATH_RESOLVER for correct paths
     const clients = [
-        { logo: "../assets/images/general/Alfanar_brand_logo.png", alt: "شركة الفنار" },
-        { logo: "../assets/images/general/Al-Mahmal.jpg", alt: "شركة المحمل" },
-        { logo: "../assets/images/general/logo.png", alt: "عيادات ميلا" },
-        { logo: "../assets/images/general/SMSA_Express_logo_(English_version).svg.png", alt: "SMSA Express" },
-        { logo: "../assets/images/general/Solutions.PNG", alt: "STC Solutions" },
-        { logo: "../assets/images/general/Ubaad.png", alt: "مؤسسة أبعاد الفخامة" }
+        { logo: PATH_RESOLVER.resolve("assets/images/logos/Alfanar_brand_logo.png"), alt: "شركة الفنار" },
+        { logo: PATH_RESOLVER.resolve("assets/images/logos/Al-Mahmal.jpg"), alt: "شركة المحمل" },
+        { logo: PATH_RESOLVER.resolve("assets/images/logos/logo.png"), alt: "عيادات ميلا" },
+        { logo: PATH_RESOLVER.resolve("assets/images/logos/SMSA_Express_logo_(English_version).svg.png"), alt: "SMSA Express" },
+        { logo: PATH_RESOLVER.resolve("assets/images/logos/Solutions.PNG"), alt: "STC Solutions" },
+        { logo: PATH_RESOLVER.resolve("assets/images/logos/Ubaad.png"), alt: "مؤسسة أبعاد الفخامة" }
     ];
 
     // Render logos 3 times for seamless infinite scroll

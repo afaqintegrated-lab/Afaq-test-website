@@ -3,12 +3,12 @@ const productImagesData = {};
 
 // Helper function to get first available image for a product code
 function getProductMainImage(code) {
-    const baseFolder = "../assets/images/general/products/smart-home/";
+    const baseFolder = PATH_RESOLVER.resolve("assets/images/products/smart-home/") + "/";
 
     // Map of product codes to their main image paths
     const imageMap = {
         "LS082WH": baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
-        "LS205WH": baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects ../assets/images/general/DEFED00000_00000.png",
+        "LS205WH": baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00000_00000.png",
         "LS227": baseFolder + "LS227 _ Nature 7 PRO_视界7PRO/7 aspects images (Grey)/Nature70006_00000.png",
         "LS268-WH3": baseFolder + "LS268-WT1 Nature Mini PRO (White Thermostat)/20230922-173732.png",
         "LS268-GR3": baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/Front.png",
@@ -33,7 +33,7 @@ function getProductMainImage(code) {
 
 // Helper function to get all images for a product code
 function getProductImages(code) {
-    const baseFolder = "../assets/images/general/products/smart-home/";
+    const baseFolder = PATH_RESOLVER.resolve("assets/images/products/smart-home/") + "/";
 
     // Comprehensive image arrays for products
     const imagesMap = {
@@ -47,10 +47,10 @@ function getProductImages(code) {
             baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/45度视角.png"
         ],
         "LS205WH": [
-            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects ../assets/images/general/DEFED00000_00000.png",
-            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects ../assets/images/general/DEFED00001_00000.png",
-            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects ../assets/images/general/DEFED00002_00000.png",
-            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects ../assets/images/general/DEFED00003_00000.png"
+            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00000_00000.png",
+            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00001_00000.png",
+            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00002_00000.png",
+            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00003_00000.png"
         ],
         "LS227": [
             baseFolder + "LS227 _ Nature 7 PRO_视界7PRO/7 aspects images (Grey)/Nature70006_00000.png"

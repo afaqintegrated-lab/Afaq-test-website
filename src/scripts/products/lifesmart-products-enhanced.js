@@ -37,7 +37,7 @@ fetch('../data/products/product-images-map.json')
 // Image Slider functionality for product cards
 function createImageSlider(images, productId) {
     if (!images || images.length <= 1) {
-        return `<img src="${images ? images[0] : '../assets/images/general/placeholder.png'}" alt="Product" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">`;
+        return `<img src="${images ? images[0] : PATH_RESOLVER.resolve('assets/images/logos/logo.png')}" alt="Product" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">`;
     }
 
     return `
