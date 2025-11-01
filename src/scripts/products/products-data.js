@@ -843,15 +843,15 @@ const products = [
         description: "مفتاح ذكي أنيق بتصميم BLEND، يدعم التحكم الذكي والإعدادات المخصصة للمنزل الذكي.",
         price: 245,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联正面.png",
+        image: "assets/images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联正面.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联正面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联45度.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联反面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联左侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联底面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联顶面.png"
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联正面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联45度.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联侧面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联反面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联左侧面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联底面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联顶面.png"
         ],
         features: [
             "تصميم أنيق ومدمج",
@@ -871,15 +871,15 @@ const products = [
         description: "مفتاح ذكي بتصميم BLEND يدعم مسارين للتحكم، مثالي للتحكم في الإضاءة المتعددة.",
         price: 285,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联正面.png",
+        image: "assets/images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联正面.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联正面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联45.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联反面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联左侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联底面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联顶面.png"
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联正面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联45.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联侧面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联反面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联左侧面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联底面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联顶面.png"
         ],
         features: [
             "تحكم مزدوج المسار",
@@ -899,15 +899,15 @@ const products = [
         description: "مفتاح ذكي بتصميم BLEND يدعم ثلاثة مسارات للتحكم، مثالي للتحكم المتقدم في الإضاءة.",
         price: 325,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/3gang/三联正面.png",
+        image: "assets/images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联正面.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/3gang/三联正面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/3gang/三联45.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/3gang/三联侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/3gang/三联反面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/3gang/三联左侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/3gang/三联底面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/3gang/三联顶面.png"
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联正面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联45.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联侧面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联反面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联左侧面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联底面.png",
+            "assets/images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联顶面.png"
         ],
         features: [
             "تحكم ثلاثي المسار",
@@ -927,15 +927,15 @@ const products = [
         description: "مفتاح ذكي قابل للنقل بتصميم CUBE، يمكن وضعه في أي مكان للتحكم السهل في الأجهزة الذكية.",
         price: 195,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心正面.png",
+        image: "assets/images/products/smart-home/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心正面.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心正面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心45度.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心侧面右侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心左侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心底面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心顶面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/反面视角.png"
+            "assets/images/products/smart-home/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心正面.png",
+            "assets/images/products/smart-home/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心45度.png",
+            "assets/images/products/smart-home/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心侧面右侧.png",
+            "assets/images/products/smart-home/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心左侧面.png",
+            "assets/images/products/smart-home/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心底面.png",
+            "assets/images/products/smart-home/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/随心顶面.png",
+            "assets/images/products/smart-home/LS069WH｜CUBE Clicker (White)_随心开关（白色）/产品七视图/反面视角.png"
         ],
         features: [
             "قابل للنقل والوضع في أي مكان",
@@ -955,16 +955,16 @@ const products = [
         description: "مفتاح ذكي بتصميم رفيع جداً، يوفر التحكم الذكي مع الحفاظ على الجمالية والأناقة.",
         price: 185,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/正视图-front view-真薄开关.png",
+        image: "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/正视图-front view-真薄开关.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/正视图-front view-真薄开关.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/透视视图-perspective view-真薄开关.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/右视图-right view-真薄开关.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/左视图-left view-真薄开关.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/背视图-back view-真薄开关.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/底视图-bottom view-真薄开关.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/顶视图-top view-真薄开关0.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS222 Smart Switch Air/7 Perspective/地平线视图-Horizon view-真薄开关.png"
+            "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/正视图-front view-真薄开关.png",
+            "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/透视视图-perspective view-真薄开关.png",
+            "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/右视图-right view-真薄开关.png",
+            "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/左视图-left view-真薄开关.png",
+            "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/背视图-back view-真薄开关.png",
+            "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/底视图-bottom view-真薄开关.png",
+            "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/顶视图-top view-真薄开关0.png",
+            "assets/images/products/smart-home/LS222 Smart Switch Air/7 Perspective/地平线视图-Horizon view-真薄开关.png"
         ],
         features: [
             "تصميم رفيع جداً",
@@ -984,13 +984,13 @@ const products = [
         description: "جهاز تحكم ذكي متقدم يدعم التحكم في جميع أجهزة المنزل الذكي من مكان واحد.",
         price: 165,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS256_Smart Remote Control _ 智能情景遥控器/七视图/正面.png",
+        image: "assets/images/products/smart-home/LS256_Smart Remote Control _ 智能情景遥控器/七视图/正面.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS256_Smart Remote Control _ 智能情景遥控器/七视图/正面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS256_Smart Remote Control _ 智能情景遥控器/七视图/45度.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS256_Smart Remote Control _ 智能情景遥控器/七视图/侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS256_Smart Remote Control _ 智能情景遥控器/七视图/侧面2.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS256_Smart Remote Control _ 智能情景遥控器/七视图/背面.png"
+            "assets/images/products/smart-home/LS256_Smart Remote Control _ 智能情景遥控器/七视图/正面.png",
+            "assets/images/products/smart-home/LS256_Smart Remote Control _ 智能情景遥控器/七视图/45度.png",
+            "assets/images/products/smart-home/LS256_Smart Remote Control _ 智能情景遥控器/七视图/侧面.png",
+            "assets/images/products/smart-home/LS256_Smart Remote Control _ 智能情景遥控器/七视图/侧面2.png",
+            "assets/images/products/smart-home/LS256_Smart Remote Control _ 智能情景遥控器/七视图/背面.png"
         ],
         features: [
             "تحكم شامل في المنزل الذكي",
@@ -1010,15 +1010,15 @@ const products = [
         description: "وحدة تحكم متقدمة للستائر الذكية، تدعم التحكم في الستائر بسهولة ودقة عالية.",
         price: 425,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界正面.png",
+        image: "assets/images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界正面.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界正面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界45度.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界反面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界右侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界左侧面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界底面面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界顶面.png"
+            "assets/images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界正面.png",
+            "assets/images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界45度.png",
+            "assets/images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界反面.png",
+            "assets/images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界右侧面.png",
+            "assets/images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界左侧面.png",
+            "assets/images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界底面面.png",
+            "assets/images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界顶面.png"
         ],
         features: [
             "تحكم دقيق في الستائر",
@@ -1038,14 +1038,14 @@ const products = [
         description: "محرك ستائر ذكي بتقنية Quicklink، يوفر التحكم السهل والدقيق في الستائر.",
         price: 385,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/正面速接电机_00000.png",
+        image: "assets/images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/正面速接电机_00000.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/正面速接电机_00000.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/45速接电机_00000.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/反面速接电机_00000.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/右侧速接电机_00000.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/底面速接电机_00000.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/顶面速接电机_00000.png"
+            "assets/images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/正面速接电机_00000.png",
+            "assets/images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/45速接电机_00000.png",
+            "assets/images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/反面速接电机_00000.png",
+            "assets/images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/右侧速接电机_00000.png",
+            "assets/images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/底面速接电机_00000.png",
+            "assets/images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机 - M100D/顶面速接电机_00000.png"
         ],
         features: [
             "تقنية Quicklink المتقدمة",
@@ -1065,16 +1065,16 @@ const products = [
         description: "محرك ستائر ذكي محسن من الإصدار الثاني، يوفر أداءً أفضل وموثوقية أعلى.",
         price: 365,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140213.png",
+        image: "assets/images/products/smart-home/smart curtain motor v2/20240829-140213.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140213.png",
-            "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140226.png",
-            "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140233.png",
-            "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140239.png",
-            "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140244.png",
-            "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140250.png",
-            "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140254.png",
-            "../resources/products-from-drive/ProductsFromDrive/smart curtain motor v2/20240829-140300.png"
+            "assets/images/products/smart-home/smart curtain motor v2/20240829-140213.png",
+            "assets/images/products/smart-home/smart curtain motor v2/20240829-140226.png",
+            "assets/images/products/smart-home/smart curtain motor v2/20240829-140233.png",
+            "assets/images/products/smart-home/smart curtain motor v2/20240829-140239.png",
+            "assets/images/products/smart-home/smart curtain motor v2/20240829-140244.png",
+            "assets/images/products/smart-home/smart curtain motor v2/20240829-140250.png",
+            "assets/images/products/smart-home/smart curtain motor v2/20240829-140254.png",
+            "assets/images/products/smart-home/smart curtain motor v2/20240829-140300.png"
         ],
         features: [
             "إصدار محسن ومتطور",
@@ -1094,13 +1094,13 @@ const products = [
         description: "قفل باب ذكي متقدم بتقنية بصمة الإصبع وعدة طرق لفتح الباب، مناسب للأبواب بسماكة 40-122 ملم.",
         price: 1290,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/smart door lock C200/10000.jpg",
+        image: "assets/images/products/smart-home/smart door lock C200/10000.jpg",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/smart door lock C200/10000.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/smart door lock C200/20000.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/smart door lock C200/30000.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/smart door lock C200/侧10000.png",
-            "../resources/products-from-drive/ProductsFromDrive/smart door lock C200/侧20000.png"
+            "assets/images/products/smart-home/smart door lock C200/10000.jpg",
+            "assets/images/products/smart-home/smart door lock C200/20000.jpg",
+            "assets/images/products/smart-home/smart door lock C200/30000.jpg",
+            "assets/images/products/smart-home/smart door lock C200/侧10000.png",
+            "assets/images/products/smart-home/smart door lock C200/侧20000.png"
         ],
         features: [
             "قفل جسم قياسي 6068",
@@ -1121,15 +1121,15 @@ const products = [
         description: "مستشعر ذكي للباب والنافذة بتصميم CUBE، يوفر حماية شاملة للمنزل.",
         price: 164,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/正面门禁.png",
+        image: "assets/images/products/smart-home/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/正面门禁.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/正面门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/45度门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/反面门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/左侧门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/底面门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/顶面门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/正面门禁(1).png"
+            "assets/images/products/smart-home/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/正面门禁.png",
+            "assets/images/products/smart-home/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/45度门禁.png",
+            "assets/images/products/smart-home/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/反面门禁.png",
+            "assets/images/products/smart-home/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/左侧门禁.png",
+            "assets/images/products/smart-home/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/底面门禁.png",
+            "assets/images/products/smart-home/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/顶面门禁.png",
+            "assets/images/products/smart-home/LS058WH｜CUBE DoorWindow Sensor_多功能门禁感应器/产品七视图/正面门禁(1).png"
         ],
         features: [
             "حماية من التلاعب",
@@ -1150,15 +1150,15 @@ const products = [
         description: "مستشعر حركة ذكي بتصميم CUBE، يوفر كشف دقيق للحركة مع استهلاك منخفض للطاقة.",
         price: 199,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/正面视角.png",
+        image: "assets/images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/正面视角.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/正面视角.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/45度视角.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/反面视角.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/右侧视角.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/左侧视角(1).png",
-            "../resources/products-from-drive/ProductsFromDrive/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/底面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/顶面.png"
+            "assets/images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/正面视角.png",
+            "assets/images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/45度视角.png",
+            "assets/images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/反面视角.png",
+            "assets/images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/右侧视角.png",
+            "assets/images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/左侧视角(1).png",
+            "assets/images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/底面.png",
+            "assets/images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/顶面.png"
         ],
         features: [
             "تقنية PIR متقدمة",
@@ -1179,15 +1179,15 @@ const products = [
         description: "مركز النظام البيئي للمنزل الذكي، معالج قوي يدعم حتى 500 جهاز متصل.",
         price: 469,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
+        image: "assets/images/products/smart-home/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/45度视角.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/反面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/右侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/左侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/底面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/顶面.png"
+            "assets/images/products/smart-home/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
+            "assets/images/products/smart-home/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/45度视角.png",
+            "assets/images/products/smart-home/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/反面.png",
+            "assets/images/products/smart-home/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/右侧.png",
+            "assets/images/products/smart-home/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/左侧.png",
+            "assets/images/products/smart-home/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/底面.png",
+            "assets/images/products/smart-home/LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/顶面.png"
         ],
         features: [
             "معالج قوي عالي الأداء",
@@ -1208,15 +1208,15 @@ const products = [
         description: "وحدة تحكم عامة متعددة الوظائف، تدعم التحكم في مختلف الأجهزة الذكية.",
         price: 225,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS143｜General Controller_通用控制器/产品七视图/通用控制器正面.png",
+        image: "assets/images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器正面.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS143｜General Controller_通用控制器/产品七视图/通用控制器正面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS143｜General Controller_通用控制器/产品七视图/通用控制器45度.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS143｜General Controller_通用控制器/产品七视图/通用控制器反面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS143｜General Controller_通用控制器/产品七视图/通用控制器右侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS143｜General Controller_通用控制器/产品七视图/通用控制器左侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS143｜General Controller_通用控制器/产品七视图/通用控制器底面.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS143｜General Controller_通用控制器/产品七视图/通用控制器顶面.png"
+            "assets/images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器正面.png",
+            "assets/images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器45度.png",
+            "assets/images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器反面.png",
+            "assets/images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器右侧.png",
+            "assets/images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器左侧.png",
+            "assets/images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器底面.png",
+            "assets/images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器顶面.png"
         ],
         features: [
             "تحكم متعدد الوظائف",
@@ -1236,14 +1236,14 @@ const products = [
         description: "محول بروتوكول 485 للاتصال بين الأجهزة الذكية والأنظمة التقليدية.",
         price: 185,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS080HV _ 485 converter_485转换器/七视图/正面485.png",
+        image: "assets/images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/正面485.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS080HV _ 485 converter_485转换器/七视图/正面485.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS080HV _ 485 converter_485转换器/七视图/反面485.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS080HV _ 485 converter_485转换器/七视图/右侧485.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS080HV _ 485 converter_485转换器/七视图/左侧485.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS080HV _ 485 converter_485转换器/七视图/底面485.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS080HV _ 485 converter_485转换器/七视图/顶面485.png"
+            "assets/images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/正面485.png",
+            "assets/images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/反面485.png",
+            "assets/images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/右侧485.png",
+            "assets/images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/左侧485.png",
+            "assets/images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/底面485.png",
+            "assets/images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/顶面485.png"
         ],
         features: [
             "تحويل بروتوكول 485",
@@ -1263,15 +1263,15 @@ const products = [
         description: "مخفت إضاءة ذكي بتقنية Triac، يوفر تحكم دقيق في مستوى الإضاءة.",
         price: 195,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS223BL Triac Dimmer Switch (Black)/20221021-114406.png",
+        image: "assets/images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114406.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS223BL Triac Dimmer Switch (Black)/20221021-114406.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS223BL Triac Dimmer Switch (Black)/20221021-114436.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS223BL Triac Dimmer Switch (Black)/20221021-114441.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS223BL Triac Dimmer Switch (Black)/20221021-114445.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS223BL Triac Dimmer Switch (Black)/20221021-114455.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS223BL Triac Dimmer Switch (Black)/20221021-114459.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS223BL Triac Dimmer Switch (Black)/20221021-114530.png"
+            "assets/images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114406.png",
+            "assets/images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114436.png",
+            "assets/images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114441.png",
+            "assets/images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114445.png",
+            "assets/images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114455.png",
+            "assets/images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114459.png",
+            "assets/images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114530.png"
         ],
         features: [
             "تقنية Triac المتقدمة",
@@ -1291,14 +1291,14 @@ const products = [
         description: "شاشة لمس HD بحجم 4 بوصات، نظام تشغيل قابل للتخصيص، بروتوكولات متعددة تشمل CoSS و Zigbee و Wi-Fi ثنائي النطاق و BLE.",
         price: 915,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/正面.jpg",
+        image: "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/正面.jpg",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/正面.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/45度.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/反面.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/右侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/左侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/底面.png"
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/正面.jpg",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/45度.jpg",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/反面.jpg",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/右侧.png",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/左侧.png",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/底面.png"
         ],
         features: [
             "شاشة لمس HD 4 بوصة",
@@ -1319,14 +1319,14 @@ const products = [
         description: "شاشة لمس HD بحجم 4 بوصات، نظام تشغيل قابل للتخصيص، بروتوكولات متعددة تشمل CoSS و Zigbee و Wi-Fi ثنائي النطاق و BLE.",
         price: 915,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/正面.jpg",
+        image: "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/正面.jpg",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/正面.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/45度.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/反面.jpg",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/右侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/左侧.png",
-            "../resources/products-from-drive/ProductsFromDrive/LS268_Nature Mini PRO/产品7视图/底面.png"
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/正面.jpg",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/45度.jpg",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/反面.jpg",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/右侧.png",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/左侧.png",
+            "assets/images/products/smart-home/LS268_Nature Mini PRO/产品7视图/底面.png"
         ],
         features: [
             "شاشة لمس HD 4 بوصة",
@@ -1347,16 +1347,16 @@ const products = [
         description: "وحدة تحكم متقدمة لخفت الإضاءة، تدعم التحكم في الإضاءة المتدرجة.",
         price: 275,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-1.png",
+        image: "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-1.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-1.png",
-            "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-2.png",
-            "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-3.png",
-            "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-4.png",
-            "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-5.png",
-            "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-6.png",
-            "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-7.png",
-            "../resources/products-from-drive/ProductsFromDrive/CV Dimming Controller/20240409-144103.004-8.png"
+            "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-1.png",
+            "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-2.png",
+            "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-3.png",
+            "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-4.png",
+            "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-5.png",
+            "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-6.png",
+            "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-7.png",
+            "assets/images/products/smart-home/CV Dimming Controller/20240409-144103.004-8.png"
         ],
         features: [
             "تحكم متقدم في الإضاءة",
@@ -1376,16 +1376,16 @@ const products = [
         description: "أول بوابة فائقة في الصناعة مع دعم 4G، البوابة المفتوحة الأولى التي تعبر الأنظمة والمنصات.",
         price: 1290,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink1.png",
+        image: "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink1.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink1.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink2.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink3.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink4.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink5.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink6.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink7.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Smart Station PRO_files/ilink8.png"
+            "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink1.png",
+            "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink2.png",
+            "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink3.png",
+            "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink4.png",
+            "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink5.png",
+            "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink6.png",
+            "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink7.png",
+            "assets/images/products/smart-home/DEFED Smart Station PRO_files/ilink8.png"
         ],
         features: [
             "دعم شبكات 4G",
@@ -1406,15 +1406,15 @@ const products = [
         description: "مستشعر فتح ضيق التصميم، قابل للتطبيق على أي نوافذ أو أبواب. يحتوي على مستشعر حرارة مدمج.",
         price: 164,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/DEFED Door-Window Sensor/正面门禁.png",
+        image: "assets/images/products/smart-home/DEFED Door-Window Sensor/正面门禁.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Door-Window Sensor/正面门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Door-Window Sensor/45度门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Door-Window Sensor/反面门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Door-Window Sensor/左侧门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Door-Window Sensor/底面门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Door-Window Sensor/顶面门禁.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Door-Window Sensor/正面门禁(1).png"
+            "assets/images/products/smart-home/DEFED Door-Window Sensor/正面门禁.png",
+            "assets/images/products/smart-home/DEFED Door-Window Sensor/45度门禁.png",
+            "assets/images/products/smart-home/DEFED Door-Window Sensor/反面门禁.png",
+            "assets/images/products/smart-home/DEFED Door-Window Sensor/左侧门禁.png",
+            "assets/images/products/smart-home/DEFED Door-Window Sensor/底面门禁.png",
+            "assets/images/products/smart-home/DEFED Door-Window Sensor/顶面门禁.png",
+            "assets/images/products/smart-home/DEFED Door-Window Sensor/正面门禁(1).png"
         ],
         features: [
             "حماية من التلاعب",
@@ -1435,14 +1435,14 @@ const products = [
         description: "مستشعر PIR مدمج مع عنصر استشعار درجة الحرارة لدقة الكشف في درجات الحرارة المرتفعة.",
         price: 199,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/DEFED Motion Sensor/正面动态.png",
+        image: "assets/images/products/smart-home/DEFED Motion Sensor/正面动态.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Motion Sensor/正面动态.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Motion Sensor/45动态.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Motion Sensor/反面动态.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Motion Sensor/左侧动态.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Motion Sensor/底面动态.png",
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Motion Sensor/顶面动态.png"
+            "assets/images/products/smart-home/DEFED Motion Sensor/正面动态.png",
+            "assets/images/products/smart-home/DEFED Motion Sensor/45动态.png",
+            "assets/images/products/smart-home/DEFED Motion Sensor/反面动态.png",
+            "assets/images/products/smart-home/DEFED Motion Sensor/左侧动态.png",
+            "assets/images/products/smart-home/DEFED Motion Sensor/底面动态.png",
+            "assets/images/products/smart-home/DEFED Motion Sensor/顶面动态.png"
         ],
         features: [
             "تقنية PIR متقدمة",
@@ -1463,9 +1463,9 @@ const products = [
         description: "جهاز تحذير في نظام الأمن المنزلي مع مؤشر LED ومستشعر حرارة، يوفر أصوات >80 ديسيبل.",
         price: 246,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/Indoor Siren.png",
+        image: "assets/images/products/smart-home/Indoor Siren.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/Indoor Siren.png"
+            "assets/images/products/smart-home/Indoor Siren.png"
         ],
         features: [
             "صوت إنذار >80 ديسيبل",
@@ -1486,9 +1486,9 @@ const products = [
         description: "جهاز تحكم محمول أنيق، يوفر التحكم السريع في أجهزة المنزل الذكي.",
         price: 125,
         currency: "ر.س",
-        image: "../resources/products-from-drive/ProductsFromDrive/DEFED Key Fob.png",
+        image: "assets/images/products/smart-home/DEFED Key Fob.png",
         images: [
-            "../resources/products-from-drive/ProductsFromDrive/DEFED Key Fob.png"
+            "assets/images/products/smart-home/DEFED Key Fob.png"
         ],
         features: [
             "تحكم محمول سهل",

@@ -7,15 +7,15 @@ function getProductMainImage(code) {
 
     // Map of product codes to their main image paths
     const imageMap = {
-        "LS082WH": baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
-        "LS205WH": baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00000_00000.png",
-        "LS227": baseFolder + "LS227 _ Nature 7 PRO_视界7PRO/7 aspects images (Grey)/Nature70006_00000.png",
-        "LS268-WH3": baseFolder + "LS268-WT1 Nature Mini PRO (White Thermostat)/20230922-173732.png",
-        "LS268-GR3": baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/Front.png",
-        "C100": baseFolder + "C100/七视图/微信图片_20200728104658.jpg",
-        "LS176": baseFolder + "LS191-192-193｜CUBE Switch Module PRO_奇点开关模块PR/产品七视图/奇点pro顶面.png",
-        "LS177": baseFolder + "LS191-192-193｜CUBE Switch Module PRO_奇点开关模块PR/产品七视图/奇点pro顶面.png",
-        "LS193": baseFolder + "LS191-192-193｜CUBE Switch Module PRO_奇点开关模块PR/产品七视图/奇点pro顶面.png",
+        "LS082WH": baseFolder + "LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
+        "LS205WH": baseFolder + "DEFED Smart/DEFED Smart Station PRO-0001_00000.png",
+        "LS227": baseFolder + "LS268_Nature Mini PRO/产品7视图/Grey nature mini pro.png",
+        "LS268-WH3": baseFolder + "LS268_Nature Mini PRO/产品7视图/White .jpg",
+        "LS268-GR3": baseFolder + "LS268_Nature Mini PRO/产品7视图/Grey nature mini pro.png",
+        "C100": PATH_RESOLVER.resolve("assets/images/logos/img1.png"),
+        "LS176": baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro正面.png",
+        "LS177": baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro正面.png",
+        "LS193": baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro正面.png",
         // Products from ProductsFromDrive
         "LS055-57WH-1": "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/1 gang/一联正面.png",
         "LS055-57WH-2": "../resources/products-from-drive/ProductsFromDrive/LS055-57WH  Blend Switch/2 gang/二联正面.png",
@@ -38,50 +38,44 @@ function getProductImages(code) {
     // Comprehensive image arrays for products
     const imagesMap = {
         "LS082WH": [
-            baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
-            baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/反面.png",
-            baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/左侧.png",
-            baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/右侧.png",
-            baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/顶面.png",
-            baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/底面.png",
-            baseFolder + "LS082WH｜Smart Station_智慧中心/产品七视图/45度视角.png"
+            baseFolder + "LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
+            baseFolder + "LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/反面.png",
+            baseFolder + "LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/左侧.png",
+            baseFolder + "LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/右侧.png",
+            baseFolder + "LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/顶面.png",
+            baseFolder + "LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/底面.png",
+            baseFolder + "LS082WH｜Smart Station_智慧中心-20251012T143906Z-1-001/LS082WH｜Smart Station_智慧中心/产品七视图/45度视角.png"
         ],
         "LS205WH": [
-            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00000_00000.png",
-            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00001_00000.png",
-            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00002_00000.png",
-            baseFolder + "LS205WH｜DEFED Smart Station PRO/7 aspects /DEFED00003_00000.png"
+            baseFolder + "DEFED Smart/DEFED Smart Station PRO-0001_00000.png",
+            baseFolder + "DEFED Smart/DEFED Smart Station PRO-0002_00000.png",
+            baseFolder + "DEFED Smart/DEFED Smart Station PRO-0003_00000.png",
+            baseFolder + "DEFED Smart/DEFED Smart Station PRO-0004_00000.png"
         ],
         "LS227": [
-            baseFolder + "LS227 _ Nature 7 PRO_视界7PRO/7 aspects images (Grey)/Nature70006_00000.png"
+            baseFolder + "LS268_Nature Mini PRO/产品7视图/Grey nature mini pro.png"
         ],
         "LS268-WH3": [
-            baseFolder + "LS268-WT1 Nature Mini PRO (White Thermostat)/20230922-173732.png"
+            baseFolder + "LS268_Nature Mini PRO/产品7视图/White .jpg"
         ],
         "LS268-GR3": [
-            baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/Front.png",
-            baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/back.png",
-            baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/Left.png",
-            baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/Right.png",
-            baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/up.png",
-            baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/bottom.png",
-            baseFolder + "LS268-GT1 Nature Mini PRO (Grey Thermostat)/45°.png"
+            baseFolder + "LS268_Nature Mini PRO/产品7视图/Grey nature mini pro.png",
+            baseFolder + "LS268_Nature Mini PRO/产品7视图/Black.jpg"
         ],
         "C100": [
-            baseFolder + "C100/七视图/微信图片_20200728104658.jpg",
-            baseFolder + "C100/七视图/微信图片_20200728104705.jpg",
-            baseFolder + "C100/七视图/微信图片_20200728104709.jpg",
-            baseFolder + "C100/场景图/20211223-141152.jpeg",
-            baseFolder + "C100/场景图/飞书20211223-141057.jpg"
+            PATH_RESOLVER.resolve("assets/images/logos/img1.png")
         ],
         "LS176": [
-            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_奇点开关模块PR/产品七视图/奇点pro顶面.png"
+            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro正面.png",
+            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro顶面.png"
         ],
         "LS177": [
-            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_奇点开关模块PR/产品七视图/奇点pro顶面.png"
+            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro正面.png",
+            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro顶面.png"
         ],
         "LS193": [
-            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_奇点开关模块PR/产品七视图/奇点pro顶面.png"
+            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro正面.png",
+            baseFolder + "LS191-192-193｜CUBE Switch Module PRO_3way/产品七视图/奇点pro顶面.png"
         ],
         // Products from ProductsFromDrive
         "LS055-57WH-1": [
