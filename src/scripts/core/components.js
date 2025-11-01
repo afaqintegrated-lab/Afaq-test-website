@@ -96,7 +96,7 @@ function generateHeader(activePage = 'home') {
 
                     <!-- CTA Buttons -->
                     <div class="hidden lg:flex items-center gap-4">
-                        <a href="src/pages/ecommerce/cart.html" id="cart-counter" class="relative">
+                        <a href="${PATH_RESOLVER.resolve('src/pages/ecommerce/cart.html')}" id="cart-counter" class="relative">
                             <i class="fas fa-shopping-cart text-2xl text-purple-600"></i>
                             <span id="cart-badge" class="absolute -top-2 -right-2 bg-pink-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
                         </a>

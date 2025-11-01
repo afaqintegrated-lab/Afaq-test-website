@@ -1,6 +1,43 @@
 ﻿// ==================== CENTRAL CONFIGURATION FILE ====================
 // Change anything here and it will update across ALL pages automatically
 
+// ==================== PATH RESOLUTION UTILITY ====================
+// Automatically calculates the correct base path relative to the current page
+const PATH_RESOLVER = {
+    basePath: (function() {
+        // Get current script's path relative to the page
+        const currentPath = window.location.pathname;
+        
+        // Determine depth from root
+        if (currentPath.includes('/src/pages/main/')) {
+            return '../../..'; // From src/pages/main/ to root
+        } else if (currentPath.includes('/src/pages/products/')) {
+            return '../../..'; // From src/pages/products/ to root
+        } else if (currentPath.includes('/src/pages/categories/')) {
+            return '../../..'; // From src/pages/categories/ to root
+        } else if (currentPath.includes('/src/pages/sectors/')) {
+            return '../../..'; // From src/pages/sectors/ to root
+        } else if (currentPath.includes('/src/pages/ecommerce/')) {
+            return '../../..'; // From src/pages/ecommerce/ to root
+        } else {
+            return '.'; // From root
+        }
+    })(),
+    
+    resolve: function(path) {
+        // If path starts with /, it's absolute from root
+        if (path.startsWith('/')) {
+            return this.basePath + path;
+        }
+        // If path already has ../, it's already relative
+        if (path.startsWith('../')) {
+            return path;
+        }
+        // Otherwise, resolve from base
+        return this.basePath + '/' + path;
+    }
+};
+
 const CONFIG = {
     // ==================== COMPANY INFO ====================
     company: {
@@ -30,90 +67,102 @@ const CONFIG = {
 
     // ==================== LOGOS ====================
     logos: {
-        main: "../assets/images/general/afaqLogo.png",
-        light: "../assets/images/general/AFAQ-light-logo.png",
-        favicon: "../assets/images/general/favicon.ico"
+        get main() { return PATH_RESOLVER.resolve('assets/images/logos/afaqLogo.png'); },
+        get light() { return PATH_RESOLVER.resolve('assets/images/logos/AFAQ-light-logo.png'); },
+        get favicon() { return PATH_RESOLVER.resolve('assets/images/logos/favicon.ico'); }
     },
 
     // ==================== NAVIGATION MENU ====================
     navigation: {
-        main: [
-            { label: "الرئيسية", href: "index.html", id: "home" },
-            { label: "عن الشركة", href: "src/pages/main/about.html", id: "about" },
-            { label: "الخدمات", href: "src/pages/main/services.html", id: "services" },
-            { label: "الحلول", href: "src/pages/main/solutions.html", id: "solutions" },
-            { label: "المنتجات", href: "src/pages/main/products.html", id: "products" },
-            { label: "المتجر", href: "src/pages/main/store.html", id: "store" },
-            { label: "عملاؤنا", href: "src/pages/main/clients.html", id: "clients" }
-        ],
+        get main() {
+            return [
+                { label: "الرئيسية", href: PATH_RESOLVER.resolve('src/pages/main/index.html'), id: "home" },
+                { label: "عن الشركة", href: PATH_RESOLVER.resolve('src/pages/main/about.html'), id: "about" },
+                { label: "الخدمات", href: PATH_RESOLVER.resolve('src/pages/main/services.html'), id: "services" },
+                { label: "الحلول", href: PATH_RESOLVER.resolve('src/pages/main/solutions.html'), id: "solutions" },
+                { label: "المنتجات", href: PATH_RESOLVER.resolve('src/pages/main/products.html'), id: "products" },
+                { label: "المتجر", href: PATH_RESOLVER.resolve('src/pages/main/store.html'), id: "store" },
+                { label: "عملاؤنا", href: PATH_RESOLVER.resolve('src/pages/main/clients.html'), id: "clients" }
+            ];
+        },
 
-        sectors: [
-            { label: "القطاع الصحي", href: "src/pages/sectors/healthcare.html" },
-            { label: "القطاع التعليمي", href: "src/pages/sectors/education.html" },
-            { label: "قطاع الأعمال", href: "src/pages/sectors/business.html" },
-            { label: "القطاع الحكومي", href: "src/pages/sectors/government.html" },
-            { label: "القطاع الصناعي", href: "src/pages/sectors/industrial.html" },
-            { label: "القطاع المالي", href: "src/pages/sectors/finance.html" },
-            { label: "القطاع الأمني", href: "src/pages/sectors/security.html" },
-            { label: "قطاع الاتصالات", href: "src/pages/sectors/telecommunications.html" }
-        ],
+        get sectors() {
+            return [
+                { label: "القطاع الصحي", href: PATH_RESOLVER.resolve('src/pages/sectors/healthcare.html') },
+                { label: "القطاع التعليمي", href: PATH_RESOLVER.resolve('src/pages/sectors/education.html') },
+                { label: "قطاع الأعمال", href: PATH_RESOLVER.resolve('src/pages/sectors/business.html') },
+                { label: "القطاع الحكومي", href: PATH_RESOLVER.resolve('src/pages/sectors/government.html') },
+                { label: "القطاع الصناعي", href: PATH_RESOLVER.resolve('src/pages/sectors/industrial.html') },
+                { label: "القطاع المالي", href: PATH_RESOLVER.resolve('src/pages/sectors/finance.html') },
+                { label: "القطاع الأمني", href: PATH_RESOLVER.resolve('src/pages/sectors/security.html') },
+                { label: "قطاع الاتصالات", href: PATH_RESOLVER.resolve('src/pages/sectors/telecommunications.html') }
+            ];
+        },
 
-        cta: [
-            {
-                label: "اتصل بنا",
-                href: "src/pages/main/contact.html",
-                type: "outline",
-                classes: "bg-white border-2 border-purple-600 text-purple-600 px-6 py-2 rounded-lg font-medium hover:bg-purple-600 hover:text-white transition-all duration-300"
-            },
-            {
-                label: "اطلب استشارة",
-                href: "src/pages/main/contact.html",
-                type: "gradient",
-                classes: "text-white px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity duration-300",
-                style: "background: linear-gradient(to right, #582a6e, #e3237b)"
-            }
-        ]
+        get cta() {
+            return [
+                {
+                    label: "اتصل بنا",
+                    href: PATH_RESOLVER.resolve('src/pages/main/contact.html'),
+                    type: "outline",
+                    classes: "bg-white border-2 border-purple-600 text-purple-600 px-6 py-2 rounded-lg font-medium hover:bg-purple-600 hover:text-white transition-all duration-300"
+                },
+                {
+                    label: "اطلب استشارة",
+                    href: PATH_RESOLVER.resolve('src/pages/main/contact.html'),
+                    type: "gradient",
+                    classes: "text-white px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity duration-300",
+                    style: "background: linear-gradient(to right, #582a6e, #e3237b)"
+                }
+            ];
+        }
     },
 
     // ==================== FOOTER LINKS ====================
     footer: {
-        quickLinks: [
-            { label: "الرئيسية", href: "index.html" },
-            { label: "عن الشركة", href: "src/pages/main/about.html" },
-            { label: "الخدمات", href: "src/pages/main/services.html" },
-            { label: "الحلول", href: "src/pages/main/solutions.html" },
-            { label: "المنتجات", href: "src/pages/main/products.html" },
-            { label: "عملاؤنا", href: "src/pages/main/clients.html" },
-            { label: "اتصل بنا", href: "src/pages/main/contact.html" }
-        ],
+        get quickLinks() {
+            return [
+                { label: "الرئيسية", href: PATH_RESOLVER.resolve('src/pages/main/index.html') },
+                { label: "عن الشركة", href: PATH_RESOLVER.resolve('src/pages/main/about.html') },
+                { label: "الخدمات", href: PATH_RESOLVER.resolve('src/pages/main/services.html') },
+                { label: "الحلول", href: PATH_RESOLVER.resolve('src/pages/main/solutions.html') },
+                { label: "المنتجات", href: PATH_RESOLVER.resolve('src/pages/main/products.html') },
+                { label: "عملاؤنا", href: PATH_RESOLVER.resolve('src/pages/main/clients.html') },
+                { label: "اتصل بنا", href: PATH_RESOLVER.resolve('src/pages/main/contact.html') }
+            ];
+        },
 
-        services: [
-            { label: "التصميم والتطوير", href: "src/pages/main/services.html#design-development" },
-            { label: "البنية التحتية", href: "src/pages/main/services.html#infrastructure" },
-            { label: "الاستشارات المتخصصة", href: "src/pages/main/services.html#consulting" },
-            { label: "الأمن السيبراني", href: "src/pages/main/services.html#cybersecurity" },
-            { label: "الحوسبة السحابية", href: "src/pages/main/services.html#cloud" },
-            { label: "الشبكات والاتصالات", href: "src/pages/main/services.html#networks" }
-        ]
+        get services() {
+            return [
+                { label: "التصميم والتطوير", href: PATH_RESOLVER.resolve('src/pages/main/services.html') + '#design-development' },
+                { label: "البنية التحتية", href: PATH_RESOLVER.resolve('src/pages/main/services.html') + '#infrastructure' },
+                { label: "الاستشارات المتخصصة", href: PATH_RESOLVER.resolve('src/pages/main/services.html') + '#consulting' },
+                { label: "الأمن السيبراني", href: PATH_RESOLVER.resolve('src/pages/main/services.html') + '#cybersecurity' },
+                { label: "الحوسبة السحابية", href: PATH_RESOLVER.resolve('src/pages/main/services.html') + '#cloud' },
+                { label: "الشبكات والاتصالات", href: PATH_RESOLVER.resolve('src/pages/main/services.html') + '#networks' }
+            ];
+        }
     },
 
     // ==================== HOME PAGE DATA ====================
     homePage: {
         // Hero Section
-        hero: {
-            backgroundImage: "../assets/images/general/img1.png",
-            typewriterTexts: [
-                "حلول برمجية متكاملة",
-                "أنظمة أمنية متقدمة",
-                "بنية تحتية ذكية",
-                "خدمات سحابية آمنة",
-                "استشارات تقنية متخصصة"
-            ],
-            subtitle: "تدعم أعمالك وتضمن لك بيئة عمل آمنة ومستقرة",
-            buttons: [
-                { label: "اكتشف خدماتنا", href: "src/pages/main/services.html", icon: "fas fa-arrow-left" },
-                { label: "احجز استشارة مجانية", href: "src/pages/main/contact.html", outline: true }
-            ]
+        get hero() {
+            return {
+                backgroundImage: PATH_RESOLVER.resolve("assets/images/logos/img1.png"),
+                typewriterTexts: [
+                    "حلول برمجية متكاملة",
+                    "أنظمة أمنية متقدمة",
+                    "بنية تحتية ذكية",
+                    "خدمات سحابية آمنة",
+                    "استشارات تقنية متخصصة"
+                ],
+                subtitle: "تدعم أعمالك وتضمن لك بيئة عمل آمنة ومستقرة",
+                buttons: [
+                    { label: "اكتشف خدماتنا", href: PATH_RESOLVER.resolve("src/pages/main/services.html"), icon: "fas fa-arrow-left" },
+                    { label: "احجز استشارة مجانية", href: PATH_RESOLVER.resolve("src/pages/main/contact.html"), outline: true }
+                ]
+            };
         },
 
         // About Section
@@ -142,64 +191,66 @@ const CONFIG = {
         },
 
         // Sectors Section
-        sectors: [
-            {
-                title: "القطاع الصحي",
-                description: "أنظمة إدارة المستشفيات والعيادات والصيدليات مع حلول تقنية الأشعة المتطورة",
-                icon: "fas fa-heartbeat",
-                href: "src/pages/sectors/healthcare.html",
-                gradient: "from-red-500 to-red-600"
-            },
-            {
-                title: "القطاع التعليمي",
-                description: "أنظمة إدارة المدارس والجامعات وحلول التعليم الإلكتروني المتطورة",
-                icon: "fas fa-graduation-cap",
-                href: "src/pages/sectors/education.html",
-                gradient: "from-green-500 to-green-600"
-            },
-            {
-                title: "قطاع الأعمال",
-                description: "أنظمة ERP وCRM والموارد البشرية مع حلول إدارة المشاريع والمبيعات",
-                icon: "fas fa-building",
-                href: "src/pages/sectors/business.html",
-                gradient: "from-blue-500 to-blue-600"
-            },
-            {
-                title: "القطاع الحكومي",
-                description: "منصات الحكومة الإلكترونية وأنظمة إدارة الوثائق والخدمات الرقمية للمواطنين",
-                icon: "fas fa-landmark",
-                href: "src/pages/sectors/government.html",
-                gradient: "from-blue-600 to-blue-800"
-            },
-            {
-                title: "القطاع الصناعي",
-                description: "حلول الأتمتة الصناعية وإنترنت الأشياء وأنظمة إدارة الإنتاج والجودة",
-                icon: "fas fa-industry",
-                href: "src/pages/sectors/industrial.html",
-                gradient: "from-orange-500 to-red-600"
-            },
-            {
-                title: "القطاع المالي",
-                description: "الخدمات المصرفية الرقمية وبوابات الدفع وأنظمة إدارة المخاطر المالية",
-                icon: "fas fa-university",
-                href: "src/pages/sectors/finance.html",
-                gradient: "from-emerald-500 to-teal-600"
-            },
-            {
-                title: "القطاع الأمني",
-                description: "حلول الأمن السيبراني وحماية البيانات وأنظمة كشف التهديدات والاستجابة",
-                icon: "fas fa-shield-alt",
-                href: "src/pages/sectors/security.html",
-                gradient: "from-red-600 to-red-800"
-            },
-            {
-                title: "قطاع الاتصالات",
-                description: "بنية شبكات 5G ومنصات إنترنت الأشياء وحلول الاتصالات السحابية",
-                icon: "fas fa-satellite-dish",
-                href: "src/pages/sectors/telecommunications.html",
-                gradient: "from-indigo-500 to-purple-600"
-            }
-        ],
+        get sectors() {
+            return [
+                {
+                    title: "القطاع الصحي",
+                    description: "أنظمة إدارة المستشفيات والعيادات والصيدليات مع حلول تقنية الأشعة المتطورة",
+                    icon: "fas fa-heartbeat",
+                    href: PATH_RESOLVER.resolve("src/pages/sectors/healthcare.html"),
+                    gradient: "from-red-500 to-red-600"
+                },
+                {
+                    title: "القطاع التعليمي",
+                    description: "أنظمة إدارة المدارس والجامعات وحلول التعليم الإلكتروني المتطورة",
+                    icon: "fas fa-graduation-cap",
+                    href: PATH_RESOLVER.resolve("src/pages/sectors/education.html"),
+                    gradient: "from-green-500 to-green-600"
+                },
+                {
+                    title: "قطاع الأعمال",
+                    description: "أنظمة ERP وCRM والموارد البشرية مع حلول إدارة المشاريع والمبيعات",
+                    icon: "fas fa-building",
+                    href: PATH_RESOLVER.resolve("src/pages/sectors/business.html"),
+                    gradient: "from-blue-500 to-blue-600"
+                },
+                {
+                    title: "القطاع الحكومي",
+                    description: "منصات الحكومة الإلكترونية وأنظمة إدارة الوثائق والخدمات الرقمية للمواطنين",
+                    icon: "fas fa-landmark",
+                    href: PATH_RESOLVER.resolve("src/pages/sectors/government.html"),
+                    gradient: "from-blue-600 to-blue-800"
+                },
+                {
+                    title: "القطاع الصناعي",
+                    description: "حلول الأتمتة الصناعية وإنترنت الأشياء وأنظمة إدارة الإنتاج والجودة",
+                    icon: "fas fa-industry",
+                    href: PATH_RESOLVER.resolve("src/pages/sectors/industrial.html"),
+                    gradient: "from-orange-500 to-red-600"
+                },
+                {
+                    title: "القطاع المالي",
+                    description: "الخدمات المصرفية الرقمية وبوابات الدفع وأنظمة إدارة المخاطر المالية",
+                    icon: "fas fa-university",
+                    href: PATH_RESOLVER.resolve("src/pages/sectors/finance.html"),
+                    gradient: "from-emerald-500 to-teal-600"
+                },
+                {
+                    title: "القطاع الأمني",
+                    description: "حلول الأمن السيبراني وحماية البيانات وأنظمة كشف التهديدات والاستجابة",
+                    icon: "fas fa-shield-alt",
+                    href: PATH_RESOLVER.resolve("src/pages/sectors/security.html"),
+                    gradient: "from-red-600 to-red-800"
+                },
+                {
+                    title: "قطاع الاتصالات",
+                    description: "بنية شبكات 5G ومنصات إنترنت الأشياء وحلول الاتصالات السحابية",
+                    icon: "fas fa-satellite-dish",
+                    href: PATH_RESOLVER.resolve("src/pages/sectors/telecommunications.html"),
+                    gradient: "from-indigo-500 to-purple-600"
+                }
+            ];
+        },
 
         // Solutions Section
         solutions: [
@@ -234,23 +285,27 @@ const CONFIG = {
         ],
 
         // Clients
-        clients: [
-            { name: "شركة الفنار", logo: "../assets/images/general/Alfanar_brand_logo.png" },
-            { name: "شركة المحمل", logo: "../assets/images/general/Al-Mahmal.jpg" },
-            { name: "عيادات ميلا", logo: "../assets/images/general/logo.png" },
-            { name: "SMSA Express", logo: "../assets/images/general/SMSA_Express_logo_(English_version).svg.png" },
-            { name: "STC Solutions", logo: "../assets/images/general/Solutions.PNG" },
-            { name: "مؤسسة أبعاد الفخامة", logo: "../assets/images/general/Ubaad.png" }
-        ],
+        get clients() {
+            return [
+                { name: "شركة الفنار", logo: PATH_RESOLVER.resolve("assets/images/logos/Alfanar_brand_logo.png") },
+                { name: "شركة المحمل", logo: PATH_RESOLVER.resolve("assets/images/logos/Al-Mahmal.jpg") },
+                { name: "عيادات ميلا", logo: PATH_RESOLVER.resolve("assets/images/logos/logo.png") },
+                { name: "SMSA Express", logo: PATH_RESOLVER.resolve("assets/images/logos/SMSA_Express_logo_(English_version).svg.png") },
+                { name: "STC Solutions", logo: PATH_RESOLVER.resolve("assets/images/logos/Solutions.PNG") },
+                { name: "مؤسسة أبعاد الفخامة", logo: PATH_RESOLVER.resolve("assets/images/logos/Ubaad.png") }
+            ];
+        },
 
         // CTA Section
-        cta: {
-            title: "ابدأ رحلتك التقنية معنا اليوم",
-            subtitle: "احصل على استشارة مجانية واكتشف كيف يمكن لحلولنا التقنية أن تحول أعمالك",
-            buttons: [
-                { label: "اتصل بنا الآن", href: "src/pages/main/contact.html", primary: true },
-                { label: "احجز استشارة مجانية", href: "src/pages/main/contact.html", outline: true }
-            ]
+        get cta() {
+            return {
+                title: "ابدأ رحلتك التقنية معنا اليوم",
+                subtitle: "احصل على استشارة مجانية واكتشف كيف يمكن لحلولنا التقنية أن تحول أعمالك",
+                buttons: [
+                    { label: "اتصل بنا الآن", href: PATH_RESOLVER.resolve("src/pages/main/contact.html"), primary: true },
+                    { label: "احجز استشارة مجانية", href: PATH_RESOLVER.resolve("src/pages/main/contact.html"), outline: true }
+                ]
+            };
         }
     },
 
