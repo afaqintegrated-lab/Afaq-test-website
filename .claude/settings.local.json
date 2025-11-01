@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/DELL/Downloads/**)",
+      "WebFetch(domain:drive.google.com)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(node generate-products.js)",
+      "Bash(node build-products-data.js)",
+      "Bash(node generate-all-products.js)",
+      "Bash(for dir in \"C:\\Users\\DELL\\Desktop\\afaqHTML\\images\\products\\smart-home\\LS268-GT1 Nature Mini PRO (Grey Thermostat)\" \"C:\\Users\\DELL\\Desktop\\afaqHTML\\images\\products\\smart-home\\LS268-WT1 Nature Mini PRO (White Thermostat)\")",
+      "Bash(do echo \"=== $dir ===\")",
+      "Bash(done)",
+      "Bash(node:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,965 @@
+{
+  "24V": {
+    "folder": "24V 1A Adapter 81.000230",
+    "images": [
+      "images/products/smart-home/24V 1A Adapter 81.000230/20220506-170211.jpg",
+      "images/products/smart-home/24V 1A Adapter 81.000230/20220506-170221.jpg",
+      "images/products/smart-home/24V 1A Adapter 81.000230/20220506-170229.jpg"
+    ]
+  },
+  "C100": {
+    "folder": "C100",
+    "images": [
+      "images/products/smart-home/C100/script/飞书20211206-120422.png",
+      "images/products/smart-home/C100/script/飞书20211206-120450.png",
+      "images/products/smart-home/C100/script/飞书20211206-120454.jpg",
+      "images/products/smart-home/C100/script/飞书20211206-120458.jpg",
+      "images/products/smart-home/C100/script/飞书20211206-120502.jpg",
+      "images/products/smart-home/C100/script/飞书20211206-120505.png",
+      "images/products/smart-home/C100/script/飞书20211206-120508.jpg",
+      "images/products/smart-home/C100/script/飞书20211206-120512.png",
+      "images/products/smart-home/C100/script/飞书20211207-180546.png",
+      "images/products/smart-home/C100/script/飞书20211209-142358.jpg",
+      "images/products/smart-home/C100/七视图/微信图片_202007281044658.jpg",
+      "images/products/smart-home/C100/七视图/微信图片_20200728104658.jpg",
+      "images/products/smart-home/C100/七视图/微信图片_20200728104705.jpg",
+      "images/products/smart-home/C100/七视图/微信图片_20200728104709.jpg",
+      "images/products/smart-home/C100/七视图/飞书20211206-120505.png",
+      "images/products/smart-home/C100/场景图/20211223-141152.jpeg",
+      "images/products/smart-home/C100/场景图/飞书20211206-120502.jpg",
+      "images/products/smart-home/C100/场景图/飞书20211206-120508.jpg",
+      "images/products/smart-home/C100/场景图/飞书20211223-141057.jpg",
+      "images/products/smart-home/C100/场景图/飞书20211223-141117.png",
+      "images/products/smart-home/C100/场景图/飞书20211223-141200.jpg",
+      "images/products/smart-home/C100/场景图/飞书20211223-192559.jpg",
+      "images/products/smart-home/C100/场景图/飞书20211223-192612.jpg"
+    ]
+  },
+  "E5C": {
+    "folder": "E5C Smart door lock",
+    "images": [
+      "images/products/smart-home/E5C Smart door lock/微信图片_20220506170906.png"
+    ]
+  },
+  "LS055-57WH": {
+    "folder": "LS055-57WH  Blend Switch",
+    "images": [
+      "images/products/smart-home/LS055-57WH  Blend Switch/1 gang/1 gang.jpg",
+      "images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联45度.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联侧面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联反面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联左侧面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联底面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联正面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/1 gang/一联顶面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/2 gang/2 gang.jpg",
+      "images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联45.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联侧面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联反面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联左侧面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联底面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联正面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/2 gang/二联顶面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/3gang/3 gang.jpg",
+      "images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联45.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联侧面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联反面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联左侧面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联底面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联正面.png",
+      "images/products/smart-home/LS055-57WH  Blend Switch/3gang/三联顶面.png"
+    ]
+  },
+  "LS060": {
+    "folder": "LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）",
+    "images": [
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/产品七视图/wifi插座45.png",
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/产品七视图/wifi插座反面.png",
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/产品七视图/wifi插座右面.png",
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/产品七视图/wifi插座左面.png",
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/产品七视图/wifi插座底面.png",
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/产品七视图/wifi插座正面.png",
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/产品七视图/wifi插座顶面.png",
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/场景图/智慧插座p (2).jpg",
+      "images/products/smart-home/LS060｜Smart Plug (Wi-Fi 3C)_智慧插座（Wi-Fi 3C）/场景图/智慧插座p (3).jpg"
+    ]
+  },
+  "LS062WH": {
+    "folder": "LS062WH｜CUBE Motion Sensor_多功能动态感应器",
+    "images": [
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/动态45度视角.png",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/反面视角.png",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/右侧视角.png",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/左侧视角(1).png",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/底面.png",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/正面视角.png",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/产品七视图/顶面.png",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/场景图/动态感应器p (11).jpg",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/场景图/动态感应器p (3).jpg",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/场景图/动态感应器p (5).jpg",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/场景图/动态感应器p (6).jpg",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/场景图/动态感应器p (7).jpg",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/场景图/动态感应器p (8).jpg",
+      "images/products/smart-home/LS062WH｜CUBE Motion Sensor_多功能动态感应器/场景图/动态感应器p (9).jpg"
+    ]
+  },
+  "LS063WH": {
+    "folder": "LS063WH｜CUBE Environmental Sensor_多功能环境感应器",
+    "images": [
+      "images/products/smart-home/LS063WH｜CUBE Environmental Sensor_多功能环境感应器/场景图/新all.368.png",
+      "images/products/smart-home/LS063WH｜CUBE Environmental Sensor_多功能环境感应器/场景图/环境感应器p (3).jpg",
+      "images/products/smart-home/LS063WH｜CUBE Environmental Sensor_多功能环境感应器/场景图/环境感应器p (4).jpg",
+      "images/products/smart-home/LS063WH｜CUBE Environmental Sensor_多功能环境感应器/场景图/环境感应器p (5).jpg"
+    ]
+  },
+  "LS064WH": {
+    "folder": "LS064WH｜Water Leak Sensor_水浸感应器",
+    "images": [
+      "images/products/smart-home/LS064WH｜Water Leak Sensor_水浸感应器/产品七视图/顶面.png"
+    ]
+  },
+  "LS075": {
+    "folder": "LS075｜Smart Plug (in-wall)_入墙插座",
+    "images": [
+      "images/products/smart-home/LS075｜Smart Plug (in-wall)_入墙插座/产品七视图/入墙插座45度.png",
+      "images/products/smart-home/LS075｜Smart Plug (in-wall)_入墙插座/产品七视图/入墙插座反面.png",
+      "images/products/smart-home/LS075｜Smart Plug (in-wall)_入墙插座/产品七视图/入墙插座右侧面.png",
+      "images/products/smart-home/LS075｜Smart Plug (in-wall)_入墙插座/产品七视图/入墙插座左侧面.png",
+      "images/products/smart-home/LS075｜Smart Plug (in-wall)_入墙插座/产品七视图/入墙插座底面.png",
+      "images/products/smart-home/LS075｜Smart Plug (in-wall)_入墙插座/产品七视图/入墙插座正面.png",
+      "images/products/smart-home/LS075｜Smart Plug (in-wall)_入墙插座/产品七视图/入墙插座顶面.png",
+      "images/products/smart-home/LS075｜Smart Plug (in-wall)_入墙插座/场景图/入墙插座p.jpg"
+    ]
+  },
+  "LS078": {
+    "folder": "LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）",
+    "images": [
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/产品七视图/高清摄像头45度.png",
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/产品七视图/高清摄像头反面.png",
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/产品七视图/高清摄像头右 侧面.png",
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/产品七视图/高清摄像头左侧面.png",
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/产品七视图/高清摄像头底面.png",
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/产品七视图/高清摄像头正面.png",
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/产品七视图/高清摄像头顶面.png",
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/场景图/高清摄像头p (1).jpg",
+      "images/products/smart-home/LS078｜Smart Home Wi-Fi Camera (1080P)_全高清无线摄像头（1080P）/场景图/高清摄像头p (3).jpg"
+    ]
+  },
+  "LS080HV": {
+    "folder": "LS080HV _ 485 converter_485转换器",
+    "images": [
+      "images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/反面485.png",
+      "images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/右侧485.png",
+      "images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/左侧485.png",
+      "images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/底面485.png",
+      "images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/正面485.png",
+      "images/products/smart-home/LS080HV _ 485 converter_485转换器/七视图/顶面485.png"
+    ]
+  },
+  "LS082WH": {
+    "folder": "LS082WH｜Smart Station_智慧中心",
+    "images": [
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/产品七视图/45度视角.png",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/产品七视图/反面.png",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/产品七视图/右侧.png",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/产品七视图/左侧.png",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/产品七视图/底面.png",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/产品七视图/正面.png",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/产品七视图/顶面.png",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/场景图/智慧中心p (1).jpg",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/场景图/智慧中心p (2).jpg",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/场景图/智慧中心p (4).jpg",
+      "images/products/smart-home/LS082WH｜Smart Station_智慧中心/场景图/智慧中心p (5).jpg"
+    ]
+  },
+  "LS086WH": {
+    "folder": "LS086WH｜Gas Sensor_气体感应器（燃气）",
+    "images": [
+      "images/products/smart-home/LS086WH｜Gas Sensor_气体感应器（燃气）/产品七视图/气体感应器45度1.png",
+      "images/products/smart-home/LS086WH｜Gas Sensor_气体感应器（燃气）/产品七视图/气体感应器反面.png",
+      "images/products/smart-home/LS086WH｜Gas Sensor_气体感应器（燃气）/产品七视图/气体感应器右侧.png",
+      "images/products/smart-home/LS086WH｜Gas Sensor_气体感应器（燃气）/产品七视图/气体感应器底面.png",
+      "images/products/smart-home/LS086WH｜Gas Sensor_气体感应器（燃气）/产品七视图/气体感应器正面.png",
+      "images/products/smart-home/LS086WH｜Gas Sensor_气体感应器（燃气）/产品七视图/气体感应器顶面.png"
+    ]
+  },
+  "LS087WH": {
+    "folder": "LS087WH｜Formaldehyde Sensor_气体感应器（甲醛）",
+    "images": [
+      "images/products/smart-home/LS087WH｜Formaldehyde Sensor_气体感应器（甲醛）/产品七视图/气体感应器45度1.png",
+      "images/products/smart-home/LS087WH｜Formaldehyde Sensor_气体感应器（甲醛）/产品七视图/气体感应器反面.png",
+      "images/products/smart-home/LS087WH｜Formaldehyde Sensor_气体感应器（甲醛）/产品七视图/气体感应器右侧.png",
+      "images/products/smart-home/LS087WH｜Formaldehyde Sensor_气体感应器（甲醛）/产品七视图/气体感应器左侧.png",
+      "images/products/smart-home/LS087WH｜Formaldehyde Sensor_气体感应器（甲醛）/产品七视图/气体感应器底面.png",
+      "images/products/smart-home/LS087WH｜Formaldehyde Sensor_气体感应器（甲醛）/产品七视图/气体感应器正面.png",
+      "images/products/smart-home/LS087WH｜Formaldehyde Sensor_气体感应器（甲醛）/产品七视图/气体感应器顶面.png"
+    ]
+  },
+  "LS0BCM100D": {
+    "folder": "LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机",
+    "images": [
+      "images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机/45速接电机_00000.png",
+      "images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机/反面速接电机_00000.png",
+      "images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机/右侧速接电机_00000.png",
+      "images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机/底面速接电机_00000.png",
+      "images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机/正面速接电机_00000.png",
+      "images/products/smart-home/LS0BCM100D_Quicklink Curtain Motor_速接窗帘电机/顶面速接电机_00000.png"
+    ]
+  },
+  "LS101GS": {
+    "folder": "LS101GS_Smart Lock_智能门锁（经典版）",
+    "images": [
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/内门锁反面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/内门锁右面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/内门锁左面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/内门锁底面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/内门锁正面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/内门锁顶面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/智能门锁45度.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/智能门锁正面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/智能门锁正面副本.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/门锁反面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/门锁右面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/门锁左面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/门锁底面.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/门锁底面副本.png",
+      "images/products/smart-home/LS101GS_Smart Lock_智能门锁（经典版）/门锁顶面.png"
+    ]
+  },
+  "LS123BL": {
+    "folder": "LS123BL_Smart Light Swith_120墨玉一联",
+    "images": [
+      "images/products/smart-home/LS123BL_Smart Light Swith_120墨玉一联/45 120墨玉_00000.png",
+      "images/products/smart-home/LS123BL_Smart Light Swith_120墨玉一联/反面120墨玉_00000.png",
+      "images/products/smart-home/LS123BL_Smart Light Swith_120墨玉一联/右侧120墨玉_00000.png",
+      "images/products/smart-home/LS123BL_Smart Light Swith_120墨玉一联/左侧120墨玉_00000.png",
+      "images/products/smart-home/LS123BL_Smart Light Swith_120墨玉一联/底面120墨玉_00000.png",
+      "images/products/smart-home/LS123BL_Smart Light Swith_120墨玉一联/正面120墨玉_00000.png",
+      "images/products/smart-home/LS123BL_Smart Light Swith_120墨玉一联/顶面120墨玉_00000.png"
+    ]
+  },
+  "LS123WH": {
+    "folder": "LS123WH_Smart Light Swith_120白玉一联",
+    "images": [
+      "images/products/smart-home/LS123WH_Smart Light Swith_120白玉一联/45 120白玉_00000.png",
+      "images/products/smart-home/LS123WH_Smart Light Swith_120白玉一联/反面120墨玉_00000.png",
+      "images/products/smart-home/LS123WH_Smart Light Swith_120白玉一联/右侧120白玉_00000.png",
+      "images/products/smart-home/LS123WH_Smart Light Swith_120白玉一联/左侧120白玉_00000.png",
+      "images/products/smart-home/LS123WH_Smart Light Swith_120白玉一联/底面120白玉_00000.png",
+      "images/products/smart-home/LS123WH_Smart Light Swith_120白玉一联/正面120白玉_00000.png",
+      "images/products/smart-home/LS123WH_Smart Light Swith_120白玉一联/顶面120白玉_00000.png"
+    ]
+  },
+  "LS131": {
+    "folder": "LS131 _ Smart Fan Coil Thermostat _ 风机盘管温控器",
+    "images": [
+      "images/products/smart-home/LS131 _ Smart Fan Coil Thermostat _ 风机盘管温控器/地暖温控器右侧面.png",
+      "images/products/smart-home/LS131 _ Smart Fan Coil Thermostat _ 风机盘管温控器/地暖温控器左侧面.png",
+      "images/products/smart-home/LS131 _ Smart Fan Coil Thermostat _ 风机盘管温控器/地暖温控器底面面.png",
+      "images/products/smart-home/LS131 _ Smart Fan Coil Thermostat _ 风机盘管温控器/地暖温控器背面面.png",
+      "images/products/smart-home/LS131 _ Smart Fan Coil Thermostat _ 风机盘管温控器/地暖温控器顶面.png",
+      "images/products/smart-home/LS131 _ Smart Fan Coil Thermostat _ 风机盘管温控器/风机盘管温控器45度.png",
+      "images/products/smart-home/LS131 _ Smart Fan Coil Thermostat _ 风机盘管温控器/风机盘管温控器正面.png"
+    ]
+  },
+  "LS133WH": {
+    "folder": "LS133WH｜Smart Curtain Motor_智能窗帘电机",
+    "images": [
+      "images/products/smart-home/LS133WH｜Smart Curtain Motor_智能窗帘电机/场景图/窗帘拍摄图1.jpg",
+      "images/products/smart-home/LS133WH｜Smart Curtain Motor_智能窗帘电机/场景图/窗帘拍摄图4.jpg"
+    ]
+  },
+  "LS136": {
+    "folder": "LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）",
+    "images": [
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/产品七视图/20220906-095856.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/产品七视图/45度视角.png",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/产品七视图/反面.png",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/产品七视图/右侧.png",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/产品七视图/左侧.png",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/产品七视图/底面.png",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/产品七视图/正面.png",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/产品七视图/顶.png",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/20220906-100000.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图1.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图10.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图11.JPG",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图12.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图13.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图16.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图2.JPG",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图3.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图4.jpg",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图5.JPG",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图6.JPG",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图7.JPG",
+      "images/products/smart-home/LS136｜SPOT Universal Remote Controller (CoSS)_超级碗（CoSS版）/场景图/超级碗拍摄图8.JPG"
+    ]
+  },
+  "LS143": {
+    "folder": "LS143｜General Controller_通用控制器",
+    "images": [
+      "images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器45度.png",
+      "images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器反面.png",
+      "images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器右侧.png",
+      "images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器左侧.png",
+      "images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器底面.png",
+      "images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器正面.png",
+      "images/products/smart-home/LS143｜General Controller_通用控制器/产品七视图/通用控制器顶面.png"
+    ]
+  },
+  "LS148": {
+    "folder": "LS148 Nature (Smart Control Panel)",
+    "images": [
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/产品七视图/20220803-153343.png",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/产品七视图/20231127-181833.jpeg",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/产品七视图/nature反面.png",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/产品七视图/nature右侧面.png",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/产品七视图/nature左侧面.png",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/产品七视图/nature底面.png",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/产品七视图/nature顶面.png",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/场景图/nature 10拷贝.jpg",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/场景图/nature panels 4.jpg",
+      "images/products/smart-home/LS148 Nature (Smart Control Panel)/场景图/对比老开关图.jpg"
+    ]
+  },
+  "LS150WH": {
+    "folder": "LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）",
+    "images": [
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/产品七视图/动态45度视角.png",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/产品七视图/反面视角.png",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/产品七视图/右侧视角.png",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/产品七视图/左侧视角.png",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/产品七视图/底面.png",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/产品七视图/正面视角.png",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/产品七视图/顶面.png",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/场景图/动态感应器p (11).jpg",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/场景图/动态感应器p (3).jpg",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/场景图/动态感应器p (5).jpg",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/场景图/动态感应器p (6).jpg",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/场景图/动态感应器p (7).jpg",
+      "images/products/smart-home/LS150WH｜CUBE Motion Sensor_多功能动态感应器（Japan）/场景图/动态感应器p (8).jpg"
+    ]
+  },
+  "LS155": {
+    "folder": "LS155_HA Interface Adapter_HA通用控制器",
+    "images": [
+      "images/products/smart-home/LS155_HA Interface Adapter_HA通用控制器/前.jpg",
+      "images/products/smart-home/LS155_HA Interface Adapter_HA通用控制器/前45°.jpg",
+      "images/products/smart-home/LS155_HA Interface Adapter_HA通用控制器/右.jpg",
+      "images/products/smart-home/LS155_HA Interface Adapter_HA通用控制器/后.jpg",
+      "images/products/smart-home/LS155_HA Interface Adapter_HA通用控制器/后45°.jpg",
+      "images/products/smart-home/LS155_HA Interface Adapter_HA通用控制器/左.jpg",
+      "images/products/smart-home/LS155_HA Interface Adapter_HA通用控制器/底.jpg",
+      "images/products/smart-home/LS155_HA Interface Adapter_HA通用控制器/顶.jpg"
+    ]
+  },
+  "LS159": {
+    "folder": "LS159｜Smart Plug (EU_FR, with Monitor Energy Usage)_智慧插座（欧兼法标）",
+    "images": [
+      "images/products/smart-home/LS159｜Smart Plug (EU_FR, with Monitor Energy Usage)_智慧插座（欧兼法标）/产品七视图/欧标插座45度.png",
+      "images/products/smart-home/LS159｜Smart Plug (EU_FR, with Monitor Energy Usage)_智慧插座（欧兼法标）/产品七视图/欧标插座反面.png",
+      "images/products/smart-home/LS159｜Smart Plug (EU_FR, with Monitor Energy Usage)_智慧插座（欧兼法标）/产品七视图/欧标插座右侧面.png",
+      "images/products/smart-home/LS159｜Smart Plug (EU_FR, with Monitor Energy Usage)_智慧插座（欧兼法标）/产品七视图/欧标插座左侧面.png",
+      "images/products/smart-home/LS159｜Smart Plug (EU_FR, with Monitor Energy Usage)_智慧插座（欧兼法标）/产品七视图/欧标插座底面.png",
+      "images/products/smart-home/LS159｜Smart Plug (EU_FR, with Monitor Energy Usage)_智慧插座（欧兼法标）/产品七视图/欧标插座正面.png",
+      "images/products/smart-home/LS159｜Smart Plug (EU_FR, with Monitor Energy Usage)_智慧插座（欧兼法标）/产品七视图/欧标插座顶面.png"
+    ]
+  },
+  "LS160": {
+    "folder": "LS160(A3)｜Cololight_量子灯+趣玩套装",
+    "images": [
+      "images/products/smart-home/LS160(A3)｜Cololight_量子灯+趣玩套装/产品七视图/量子灯45度.png",
+      "images/products/smart-home/LS160(A3)｜Cololight_量子灯+趣玩套装/产品七视图/量子灯反面.png",
+      "images/products/smart-home/LS160(A3)｜Cololight_量子灯+趣玩套装/产品七视图/量子灯右侧.png",
+      "images/products/smart-home/LS160(A3)｜Cololight_量子灯+趣玩套装/产品七视图/量子灯底面面.png",
+      "images/products/smart-home/LS160(A3)｜Cololight_量子灯+趣玩套装/产品七视图/量子灯正面.png",
+      "images/products/smart-home/LS160(A3)｜Cololight_量子灯+趣玩套装/产品七视图/量子灯顶面.png"
+    ]
+  },
+  "LS167": {
+    "folder": "LS167｜Cololight Strip_量子灯带",
+    "images": [
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/2(1).jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/2(2).jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/2.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/3(1).jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/3(2).jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/3.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/4.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/5.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/6.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/67403055_527935201307925_2009889612642836111_n(1).JPG",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/67403055_527935201307925_2009889612642836111_n(2).JPG",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/67403055_527935201307925_2009889612642836111_n.JPG",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/IMG_0886.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/IMG_0895 (2).jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/IMG_0901.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/IMG_0910.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/IMG_0915.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/IMG_0930.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/IMG_3854.JPG",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/piqsels.com-id-fkgec.jpg",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/QYF_2984.JPG",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/QYF_3006.JPG",
+      "images/products/smart-home/LS167｜Cololight Strip_量子灯带/场景图/QYF_3047.JPG"
+    ]
+  },
+  "LS174": {
+    "folder": "LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）",
+    "images": [
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/产品七视图/120调光45度.png",
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/产品七视图/120调光右面.png",
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/产品七视图/120调光左面.png",
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/产品七视图/120调光底面.png",
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/产品七视图/120调光标准视图文档.png",
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/产品七视图/120调光正面.png",
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/产品七视图/120调光背面.png",
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/产品七视图/120调光顶面.png",
+      "images/products/smart-home/LS174｜Dimmer _ Motion Sensor Switch (CoSS)_调光开关（CoSS版）/场景图/t4.jpg"
+    ]
+  },
+  "LS178": {
+    "folder": "LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器",
+    "images": [
+      "images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界45度.png",
+      "images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界反面.png",
+      "images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界右侧面.png",
+      "images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界左侧面.png",
+      "images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界底面面.png",
+      "images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界正面.png",
+      "images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界顶面(1).png",
+      "images/products/smart-home/LS178｜MINS Curtain Motor Controller_智界窗帘电机智控器/产品七视图/智界顶面.png"
+    ]
+  },
+  "LS181": {
+    "folder": "LS181｜Porch Wall Lamp_门廊壁灯",
+    "images": [
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/产品七视图/花园壁灯45度.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/产品七视图/花园壁灯右侧.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/产品七视图/花园壁灯左侧.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/产品七视图/花园壁灯底面面.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/产品七视图/花园壁灯正面.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/产品七视图/花园壁灯背面.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/产品七视图/花园壁灯顶面.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/huayuan2.jpg",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/huayuan3.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/huayuan4.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/楼梯.jpg",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/花园.jpg",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/门廊.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/门廊壁灯-光效动图.gif",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/门廊壁灯-光束1.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/门廊壁灯-光束2.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/门廊壁灯-光束3.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/门廊壁灯-黑背景.png",
+      "images/products/smart-home/LS181｜Porch Wall Lamp_门廊壁灯/场景图/阳台.jpg"
+    ]
+  },
+  "LS182": {
+    "folder": "LS182 Environmental Sensor  (CO2)二氧化碳感应器 _",
+    "images": [
+      "images/products/smart-home/LS182 Environmental Sensor  (CO2)二氧化碳感应器 _/产品七视图/气体感应器45度1.png",
+      "images/products/smart-home/LS182 Environmental Sensor  (CO2)二氧化碳感应器 _/产品七视图/气体感应器反面.png",
+      "images/products/smart-home/LS182 Environmental Sensor  (CO2)二氧化碳感应器 _/产品七视图/气体感应器右侧.png",
+      "images/products/smart-home/LS182 Environmental Sensor  (CO2)二氧化碳感应器 _/产品七视图/气体感应器左侧.png",
+      "images/products/smart-home/LS182 Environmental Sensor  (CO2)二氧化碳感应器 _/产品七视图/气体感应器底面.png",
+      "images/products/smart-home/LS182 Environmental Sensor  (CO2)二氧化碳感应器 _/产品七视图/气体感应器正面.png",
+      "images/products/smart-home/LS182 Environmental Sensor  (CO2)二氧化碳感应器 _/产品七视图/气体感应器顶面.png"
+    ]
+  },
+  "LS185-186-187WH": {
+    "folder": "LS185-186-187WH｜Starry Switch_辰星开关",
+    "images": [
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/black-2.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/black-3.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/gold-2.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/gold-3.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/grey-2.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/grey-3.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/一联 产品七视图/右侧.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/一联 产品七视图/左侧.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/一联 产品七视图/辰星一联白.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/一联 产品七视图/辰星一联白底面.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/一联 产品七视图/辰星一联白正面.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/一联 产品七视图/辰星一联白顶面.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/一联 产品七视图/辰星背面正面.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/三联 产品七视图/右侧.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/三联 产品七视图/左侧.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/三联 产品七视图/辰星三联白.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/三联 产品七视图/辰星三联白底面(1).png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/三联 产品七视图/辰星三联白底面.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/三联 产品七视图/辰星三联白正面.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/三联 产品七视图/辰星三联白顶面.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/三联 产品七视图/辰星背面正面.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/场景图/IMG_5930(20191203-234252).JPG",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/场景图/s4.jpg",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/场景图/s5.jpg",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/场景图/一联辰星有底图.jpg",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/场景图/微信图片_20200210165303.png",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/场景图/辰星场景图1.jpg",
+      "images/products/smart-home/LS185-186-187WH｜Starry Switch_辰星开关/场景图/辰星场景图5.jpg"
+    ]
+  },
+  "LS189": {
+    "folder": "LS189 _ Human Presence Sensor(Radar Detector, ZigBee) _人体存在感应器",
+    "images": [
+      "images/products/smart-home/LS189 _ Human Presence Sensor(Radar Detector, ZigBee) _人体存在感应器/LS189 人体存在感应器.png"
+    ]
+  },
+  "LS191-192-193": {
+    "folder": "LS191-192-193｜CUBE Switch Module PRO_奇点开关模块PR",
+    "images": [
+      "images/products/smart-home/LS191-192-193｜CUBE Switch Module PRO_奇点开关模块PR/产品七视图/奇点pro顶面.png"
+    ]
+  },
+  "LS197": {
+    "folder": "LS197｜Thermostatic Radiator Valve暖气温控阀",
+    "images": [
+      "images/products/smart-home/LS197｜Thermostatic Radiator Valve暖气温控阀/产品七视图/门阀右侧.png",
+      "images/products/smart-home/LS197｜Thermostatic Radiator Valve暖气温控阀/产品七视图/门阀左侧.png",
+      "images/products/smart-home/LS197｜Thermostatic Radiator Valve暖气温控阀/产品七视图/门阀底面.png",
+      "images/products/smart-home/LS197｜Thermostatic Radiator Valve暖气温控阀/场景图/0f1ed24cc478c93197010a6ab55c39b.png"
+    ]
+  },
+  "LS198": {
+    "folder": "LS198｜OMNI Indoor Camera_云眸室内摄像头",
+    "images": [
+      "images/products/smart-home/LS198｜OMNI Indoor Camera_云眸室内摄像头/产品七视图/云眸摄像头45度.png",
+      "images/products/smart-home/LS198｜OMNI Indoor Camera_云眸室内摄像头/产品七视图/云眸摄像头45度2.png",
+      "images/products/smart-home/LS198｜OMNI Indoor Camera_云眸室内摄像头/产品七视图/反面.png",
+      "images/products/smart-home/LS198｜OMNI Indoor Camera_云眸室内摄像头/产品七视图/右侧.png",
+      "images/products/smart-home/LS198｜OMNI Indoor Camera_云眸室内摄像头/产品七视图/左侧.png",
+      "images/products/smart-home/LS198｜OMNI Indoor Camera_云眸室内摄像头/产品七视图/底面.png",
+      "images/products/smart-home/LS198｜OMNI Indoor Camera_云眸室内摄像头/产品七视图/正面.png",
+      "images/products/smart-home/LS198｜OMNI Indoor Camera_云眸室内摄像头/产品七视图/顶面.png"
+    ]
+  },
+  "LS201": {
+    "folder": "LS201~205  _ DEFED Alarm System _ 云防系列",
+    "images": [
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120510.png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120544(1).png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120544(2).png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120544.png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120550.png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120554(1).png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120554(2).png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120554.png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120600(1).png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/45度角图片/Lark20200910-120600.png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/包装图/遥控-包装渲染图.jpeg",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/包装图/门禁-包装渲染图.jpeg",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/场景图/202009162386 1.jpg",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/场景图/PS 202009162502.jpg",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/场景图/PS-202009162349.jpg",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/场景图/PS-202009162351.jpg",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/场景图/PS-202009162540.jpg",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/爆炸图/Lark20201009-102503(1).png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/爆炸图/Lark20201009-102503.png",
+      "images/products/smart-home/LS201~205  _ DEFED Alarm System _ 云防系列/爆炸图/Lark20201009-105407.png"
+    ]
+  },
+  "LS205WH": {
+    "folder": "LS205WH{}{_ DEFED Smart Station_云防智慧中心",
+    "images": [
+      "images/products/smart-home/LS205WH{}{_ DEFED Smart Station_云防智慧中心/Back.png",
+      "images/products/smart-home/LS205WH{}{_ DEFED Smart Station_云防智慧中心/Button.png",
+      "images/products/smart-home/LS205WH{}{_ DEFED Smart Station_云防智慧中心/Front.png",
+      "images/products/smart-home/LS205WH{}{_ DEFED Smart Station_云防智慧中心/Left.png",
+      "images/products/smart-home/LS205WH{}{_ DEFED Smart Station_云防智慧中心/Right.png",
+      "images/products/smart-home/LS205WH{}{_ DEFED Smart Station_云防智慧中心/Top.png",
+      "images/products/smart-home/LS205WH{}{_ DEFED Smart Station_云防智慧中心/等角.png"
+    ]
+  },
+  "LS211": {
+    "folder": "LS211～213｜Polar Switch_极星开关",
+    "images": [
+      "images/products/smart-home/LS211～213｜Polar Switch_极星开关/一联 产品七视图/120极星一联.png",
+      "images/products/smart-home/LS211～213｜Polar Switch_极星开关/一联 产品七视图/极星开关一联底面.png",
+      "images/products/smart-home/LS211～213｜Polar Switch_极星开关/一联 产品七视图/极星开关一联正面.png",
+      "images/products/smart-home/LS211～213｜Polar Switch_极星开关/一联 产品七视图/极星开关一联顶面.png",
+      "images/products/smart-home/LS211～213｜Polar Switch_极星开关/一联 产品七视图/极星开关右侧面.png",
+      "images/products/smart-home/LS211～213｜Polar Switch_极星开关/一联 产品七视图/极星开关左侧面.png",
+      "images/products/smart-home/LS211～213｜Polar Switch_极星开关/一联 产品七视图/极星开关背面.png"
+    ]
+  },
+  "LS212": {
+    "folder": "LS212 Central Air-conditioner Smart Controller PRO",
+    "images": [
+      "images/products/smart-home/LS212 Central Air-conditioner Smart Controller PRO/20230922-182458.jpeg",
+      "images/products/smart-home/LS212 Central Air-conditioner Smart Controller PRO/20230922-182504.jpeg"
+    ]
+  },
+  "LS215": {
+    "folder": "LS215｜Smart Home Starter Set_智能家居基础套装",
+    "images": [
+      "images/products/smart-home/LS215｜Smart Home Starter Set_智能家居基础套装/Lark20200729-174609.jpeg",
+      "images/products/smart-home/LS215｜Smart Home Starter Set_智能家居基础套装/WSER40Q_智能卷帘电机｜Tubular Motor/Tubular motor 1.png",
+      "images/products/smart-home/LS215｜Smart Home Starter Set_智能家居基础套装/WSER40Q_智能卷帘电机｜Tubular Motor/Tubular motor 2.png"
+    ]
+  },
+  "LS217": {
+    "folder": "LS217  Nature 7",
+    "images": [
+      "images/products/smart-home/LS217  Nature 7/Nature70002_00000.png",
+      "images/products/smart-home/LS217  Nature 7/Nature70003_00000.png",
+      "images/products/smart-home/LS217  Nature 7/Nature70004_00000.png",
+      "images/products/smart-home/LS217  Nature 7/Nature70005_00000.png",
+      "images/products/smart-home/LS217  Nature 7/Nature70006_00000.png",
+      "images/products/smart-home/LS217  Nature 7/Nature70007_00000.png",
+      "images/products/smart-home/LS217  Nature 7/Nature70008_00000.png",
+      "images/products/smart-home/LS217  Nature 7/Nature7_00000.png"
+    ]
+  },
+  "LS218": {
+    "folder": "LS218_Nature Mini L",
+    "images": [
+      "images/products/smart-home/LS218_Nature Mini L/产品七视图/45度-灰框-2.png",
+      "images/products/smart-home/LS218_Nature Mini L/产品七视图/反面.png",
+      "images/products/smart-home/LS218_Nature Mini L/产品七视图/右侧面.png",
+      "images/products/smart-home/LS218_Nature Mini L/产品七视图/左侧面.png",
+      "images/products/smart-home/LS218_Nature Mini L/产品七视图/底面.png",
+      "images/products/smart-home/LS218_Nature Mini L/产品七视图/正面.png",
+      "images/products/smart-home/LS218_Nature Mini L/产品七视图/顶面.png",
+      "images/products/smart-home/LS218_Nature Mini L/场景图_概念图/实拍2.png",
+      "images/products/smart-home/LS218_Nature Mini L/场景图_概念图/爆炸图.png"
+    ]
+  },
+  "LS220-DG2": {
+    "folder": "LS220-DG2 Nature Dimmer Grey",
+    "images": [
+      "images/products/smart-home/LS220-DG2 Nature Dimmer Grey/20240109-145524.jpeg",
+      "images/products/smart-home/LS220-DG2 Nature Dimmer Grey/45.png",
+      "images/products/smart-home/LS220-DG2 Nature Dimmer Grey/f.png",
+      "images/products/smart-home/LS220-DG2 Nature Dimmer Grey/灰.png",
+      "images/products/smart-home/LS220-DG2 Nature Dimmer Grey/灰右视图.png",
+      "images/products/smart-home/LS220-DG2 Nature Dimmer Grey/灰左视图.png",
+      "images/products/smart-home/LS220-DG2 Nature Dimmer Grey/灰底视图.png",
+      "images/products/smart-home/LS220-DG2 Nature Dimmer Grey/灰顶视图.png"
+    ]
+  },
+  "LS220-DW2": {
+    "folder": "LS220-DW2  Nature Dimmer White",
+    "images": [
+      "images/products/smart-home/LS220-DW2  Nature Dimmer White/20240109-145524.jpeg",
+      "images/products/smart-home/LS220-DW2  Nature Dimmer White/45w.png",
+      "images/products/smart-home/LS220-DW2  Nature Dimmer White/fw.png",
+      "images/products/smart-home/LS220-DW2  Nature Dimmer White/白右视图.png",
+      "images/products/smart-home/LS220-DW2  Nature Dimmer White/白左视图.png",
+      "images/products/smart-home/LS220-DW2  Nature Dimmer White/白底视图.png",
+      "images/products/smart-home/LS220-DW2  Nature Dimmer White/白色背.png",
+      "images/products/smart-home/LS220-DW2  Nature Dimmer White/白顶视图.png"
+    ]
+  },
+  "LS220": {
+    "folder": "LS220_ Nature Switch_星玉开关",
+    "images": [
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/1-1联-45°_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/1-1联正视图00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/1联-45°_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/1联正视图.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/2-2联-45°_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/2-2联正视图_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/2联-45°_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/2联正视图°_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/3-3联-45°_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/3-3联正视图_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/3联-45°_00000.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/3联正视图.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/侧视图.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/背视图.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch 7 aspect/顶视图.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-星雾-三联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-星雾-二联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-星雾-白框一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-星雾-白框三联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-星雾-白框二联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-星雾.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-白星雾-三联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-白星雾-二联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/nature switch Matte/透视视图-perspective view-白星雾.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-black/右视图-right view-星雾开关黑玻璃一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-black/地平线视图-Horizon view-星雾开关黑玻璃一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-black/左视图-left view-星雾开关黑玻璃一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-black/底视图-bottom view-星雾开关黑玻璃一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-black/正视图-front view-星雾开关黑玻璃一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-black/背视图-back view-星雾开关黑玻璃一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-black/透视视图-perspective view-星雾开关黑玻璃一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-black/顶视图-top view-星雾开关黑玻璃一联.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-162723.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-162744.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-162748.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-162753.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-162757.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-162802.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-164806.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-164811.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-164815.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white/20231103-171708.png",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white scene/20231103-162806.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white scene/20231103-162810.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white scene/20231103-162814.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white scene/20231103-162818.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white scene/20231103-162822.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Matte-white scene/20231103-162826.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201015-105044(1).jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201015-105044.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201015-105201.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201015-105206(1).jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201015-105206.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201015-105222.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201015-105226(1).jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201015-105226.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201018-160101.jpeg",
+      "images/products/smart-home/LS220_ Nature Switch_星玉开关/Nature Switch Scene/Lark20201018-164648.jpeg"
+    ]
+  },
+  "LS223BL": {
+    "folder": "LS223BL Triac Dimmer Switch (Black)",
+    "images": [
+      "images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114406.png",
+      "images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114436.png",
+      "images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114441.png",
+      "images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114445.png",
+      "images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114455.png",
+      "images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114459.png",
+      "images/products/smart-home/LS223BL Triac Dimmer Switch (Black)/20221021-114530.png"
+    ]
+  },
+  "LS227": {
+    "folder": "LS227~LS248_Nature Mini (S)｜视界Mini (S)",
+    "images": [
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/20200811产品白底图03562.jpg",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/包装图.jpg",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/白色款 7视图/cn.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/白色款 7视图/白色-碑.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/白色款 7视图/白色右侧.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/白色款 7视图/白色左侧.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/白色款 7视图/白色底部.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/白色款 7视图/白色正面.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/白色款 7视图/白色背面.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/白色款 7视图/白色顶部.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/黑色款7视图/45度视角黑色.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/黑色款7视图/Nature mini 右侧面-黑色.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/黑色款7视图/Nature mini 左侧面-黑色.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/黑色款7视图/Nature mini 底面-黑色.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/黑色款7视图/Nature mini 正面-黑色.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/黑色款7视图/Nature mini 顶面-黑色.png",
+      "images/products/smart-home/LS227~LS248_Nature Mini (S)｜视界Mini (S)/黑色款7视图/黑色背面.png"
+    ]
+  },
+  "LS240": {
+    "folder": "LS240 Blend Switch Pro (metal)",
+    "images": [
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/45 1.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/45 2.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/45 3.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/侧.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/正1.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/正2.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/正3.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/顶1.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/顶2.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Gold/顶3.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/45 1.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/45 2.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/45 3.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/侧.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/正 1.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/正 2.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/正 3.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/顶1.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/顶2.png",
+      "images/products/smart-home/LS240 Blend Switch Pro (metal)/Red/顶3.png"
+    ]
+  },
+  "LS252WH": {
+    "folder": "LS252WH_SPOT Mini (Japan)_超级碗迷你",
+    "images": [
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图/45度视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图/侧面视角1.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图/侧面视角2.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图/底部视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图/正面视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图/背面视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图/顶面视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图(1)/45度视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图(1)/侧面视角1.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图(1)/侧面视角2.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图(1)/底部视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图(1)/正面视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图(1)/背面视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/7视图(1)/顶面视角.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/SPOT Mini Installation.png",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/SPOT Mini.jpg",
+      "images/products/smart-home/LS252WH_SPOT Mini (Japan)_超级碗迷你/白色场景图.jpg"
+    ]
+  },
+  "LS254": {
+    "folder": "LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)",
+    "images": [
+      "images/products/smart-home/LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)/7视图/middle_img_0796559a-66bf-4188-a72e-595e835e750g.png",
+      "images/products/smart-home/LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)/7视图/middle_img_0c0af133-9f15-45eb-8cf8-c931a3a0d3fg.png",
+      "images/products/smart-home/LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)/7视图/middle_img_1e564b15-b890-42e7-b6d8-6aa4a307835g.png",
+      "images/products/smart-home/LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)/7视图/middle_img_5a589ed6-90dc-4da7-88ab-8928966c5fcg.png",
+      "images/products/smart-home/LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)/7视图/middle_img_7062dfaa-0f98-4745-9048-68127974669g.png",
+      "images/products/smart-home/LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)/7视图/middle_img_7b3f8f4e-dd74-462c-86d2-ea8e28b1dc4g.png",
+      "images/products/smart-home/LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)/7视图/middle_img_fb3d70e7-ace8-4254-b314-dede8ecacf0g.png",
+      "images/products/smart-home/LS254｜Smart Plug (Zigbee UK, with Monitor Energy Usage)_智慧插座(ZigBee英标)/场景图/middle_img_73496cd5-d52c-441b-a03e-51b47356f18g.png"
+    ]
+  },
+  "LS255": {
+    "folder": "LS255_Two channel Dimmer Controller_调光调色智控器（0-10V）",
+    "images": [
+      "images/products/smart-home/LS255_Two channel Dimmer Controller_调光调色智控器（0-10V）/调光调色智控器七视图/111副本.png",
+      "images/products/smart-home/LS255_Two channel Dimmer Controller_调光调色智控器（0-10V）/调光调色智控器七视图/333副本.png",
+      "images/products/smart-home/LS255_Two channel Dimmer Controller_调光调色智控器（0-10V）/调光调色智控器七视图/英文45度.png",
+      "images/products/smart-home/LS255_Two channel Dimmer Controller_调光调色智控器（0-10V）/调光调色智控器七视图/英文顶视.png"
+    ]
+  },
+  "LS256": {
+    "folder": "LS256_Smart Remote Control _ 智能情景遥控器",
+    "images": [
+      "images/products/smart-home/LS256_Smart Remote Control _ 智能情景遥控器/七视图/45度.png"
+    ]
+  },
+  "LS258": {
+    "folder": "LS258｜Indoor Camera_云瞳室内摄像头",
+    "images": [
+      "images/products/smart-home/LS258｜Indoor Camera_云瞳室内摄像头/场景图/吊装.png"
+    ]
+  },
+  "LS259": {
+    "folder": "LS259 B14 bullet camera",
+    "images": [
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU (1).png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU (2).png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU (3).png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.45度室外.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.反面室外.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.右侧室外.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.场景1.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.场景2.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.场景3.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.场景4.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.左侧室外.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.底面室外.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.正面室外.png",
+      "images/products/smart-home/LS259 B14 bullet camera/【高清七视图】/CU.顶面室外.png",
+      "images/products/smart-home/LS259 B14 bullet camera/场景图/图片1.jpg",
+      "images/products/smart-home/LS259 B14 bullet camera/场景图/墙321321.png",
+      "images/products/smart-home/LS259 B14 bullet camera/场景图/墙_带水珠场景图.png",
+      "images/products/smart-home/LS259 B14 bullet camera/场景图/未标题-3.png"
+    ]
+  },
+  "LS265": {
+    "folder": "LS265 CV Dimmer Controller",
+    "images": [
+      "images/products/smart-home/LS265 CV Dimmer Controller/images from 7 angels/20240409-144103.004-1.png",
+      "images/products/smart-home/LS265 CV Dimmer Controller/images from 7 angels/20240409-144103.004-2.png",
+      "images/products/smart-home/LS265 CV Dimmer Controller/images from 7 angels/20240409-144103.004-3.png",
+      "images/products/smart-home/LS265 CV Dimmer Controller/images from 7 angels/20240409-144103.004-4.png",
+      "images/products/smart-home/LS265 CV Dimmer Controller/images from 7 angels/20240409-144103.004-5.png",
+      "images/products/smart-home/LS265 CV Dimmer Controller/images from 7 angels/20240409-144103.004-6.png",
+      "images/products/smart-home/LS265 CV Dimmer Controller/images from 7 angels/20240409-144103.004-7.png",
+      "images/products/smart-home/LS265 CV Dimmer Controller/images from 7 angels/20240409-144103.004-8.png"
+    ]
+  },
+  "LS268-GT1": {
+    "folder": "LS268-GT1 Nature Mini PRO (Grey Thermostat)",
+    "images": [
+      "images/products/smart-home/LS268-GT1 Nature Mini PRO (Grey Thermostat)/45°.png",
+      "images/products/smart-home/LS268-GT1 Nature Mini PRO (Grey Thermostat)/back.png",
+      "images/products/smart-home/LS268-GT1 Nature Mini PRO (Grey Thermostat)/bottom.png",
+      "images/products/smart-home/LS268-GT1 Nature Mini PRO (Grey Thermostat)/Front.png",
+      "images/products/smart-home/LS268-GT1 Nature Mini PRO (Grey Thermostat)/Left.png",
+      "images/products/smart-home/LS268-GT1 Nature Mini PRO (Grey Thermostat)/Right.png",
+      "images/products/smart-home/LS268-GT1 Nature Mini PRO (Grey Thermostat)/up.png"
+    ]
+  },
+  "LS268-WT1": {
+    "folder": "LS268-WT1 Nature Mini PRO (White Thermostat)",
+    "images": [
+      "images/products/smart-home/LS268-WT1 Nature Mini PRO (White Thermostat)/20230922-173732.png"
+    ]
+  },
+  "LS278": {
+    "folder": "LS278 Indoor Camera (4MP)",
+    "images": [
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product images/20230920-112536.png",
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product in scene/20230919-095502.jpeg",
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product in scene/20230919-095510.jpeg",
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product in scene/20230919-095514.jpeg",
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product in scene/20230919-095518.jpeg",
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product in scene/20230919-095522.jpeg",
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product in scene/20230919-095528.jpeg",
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product in scene/20230919-095534.jpeg",
+      "images/products/smart-home/LS278 Indoor Camera (4MP)/Product in scene/20230919-095538.jpeg"
+    ]
+  },
+  "LS280": {
+    "folder": "LS280 Nature X- Nature X Pro",
+    "images": [
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/浜у搧涓诲浘1.jpg",
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/浜у搧涓诲浘2.jpg",
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/浜у搧涓诲浘3.jpg",
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/浜у搧涓诲浘4.jpg",
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/璇︽儏1-1.jpg",
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/璇︽儏1-2.jpg",
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/璇︽儏1.jpg",
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/璇︽儏2.jpg",
+      "images/products/smart-home/LS280 Nature X- Nature X Pro/璇︽儏3.jpg"
+    ]
+  },
+  "M": {
+    "folder": "Magic Mirror",
+    "images": [
+      "images/products/smart-home/Magic Mirror/20220816-135731.png",
+      "images/products/smart-home/Magic Mirror/20220816-135739.png",
+      "images/products/smart-home/Magic Mirror/20220816-135756.jpg"
+    ]
+  },
+  "MIR-SM100": {
+    "folder": "MIR-SM100  Independent Photoelectric Smoke Detector(Zigbee)",
+    "images": [
+      "images/products/smart-home/MIR-SM100  Independent Photoelectric Smoke Detector(Zigbee)/front (2).png",
+      "images/products/smart-home/MIR-SM100  Independent Photoelectric Smoke Detector(Zigbee)/FRONT.png"
+    ]
+  },
+  "SPT-012ABBAW-0001": {
+    "folder": "SPT-012ABBAW-0001 Flora Grow Box (3 Plants)",
+    "images": [
+      "images/products/smart-home/SPT-012ABBAW-0001 Flora Grow Box (3 Plants)/pure background/WJN_0482-已扣白色72分辨率.png",
+      "images/products/smart-home/SPT-012ABBAW-0001 Flora Grow Box (3 Plants)/pure background/图片2.png"
+    ]
+  },
+  "T": {
+    "folder": "Ti_Anti-dazzle Spotlight",
+    "images": [
+      "images/products/smart-home/Ti_Anti-dazzle Spotlight/产品图45°/55圆形窄边.png",
+      "images/products/smart-home/Ti_Anti-dazzle Spotlight/产品图45°/75圆形无边.png",
+      "images/products/smart-home/Ti_Anti-dazzle Spotlight/产品图45°/75圆形窄边.png",
+      "images/products/smart-home/Ti_Anti-dazzle Spotlight/产品图45°/75方形窄边.png",
+      "images/products/smart-home/Ti_Anti-dazzle Spotlight/产品图45°/95圆形无边.png",
+      "images/products/smart-home/Ti_Anti-dazzle Spotlight/产品图45°/95圆形窄边.png",
+      "images/products/smart-home/Ti_Anti-dazzle Spotlight/爆炸图.png"
+    ]
+  },
+  "WSER40Q": {
+    "folder": "WSER40Q｜Tubular Motor_智能卷帘电机",
+    "images": [
+      "images/products/smart-home/WSER40Q｜Tubular Motor_智能卷帘电机/Tubular motor 1.png",
+      "images/products/smart-home/WSER40Q｜Tubular Motor_智能卷帘电机/Tubular motor 2.png"
+    ]
+  },
+  "X100": {
+    "folder": "X100 Video smart doorlock",
+    "images": [
+      "images/products/smart-home/X100 Video smart doorlock/20240703-155250.jpeg",
+      "images/products/smart-home/X100 Video smart doorlock/20240703-155306.jpeg",
+      "images/products/smart-home/X100 Video smart doorlock/20240703-155311.jpeg",
+      "images/products/smart-home/X100 Video smart doorlock/20240703-155316.jpeg"
+    ]
+  }
+}

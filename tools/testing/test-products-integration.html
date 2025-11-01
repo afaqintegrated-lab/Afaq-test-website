@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Products Integration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-6xl mx-auto">
+        <h1 class="text-3xl font-bold mb-8 text-center">اختبار تكامل المنتجات الجديدة</h1>
+        
+        <div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Products will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Load scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/products-data.js"></script>
+    <script src="js/product-images.js"></script>
+    
+    <script>
+        // Test script to verify new products
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Testing products integration...');
+            
+            // Get smart home products
+            const smartHomeProducts = products.filter(product => product.categorySlug === 'smart-home');
+            console.log(`Total smart home products: ${smartHomeProducts.length}`);
+            
+            // Filter new products from ProductsFromDrive
+            const newProducts = smartHomeProducts.filter(product => 
+                product.id.includes('blend-switch') || 
+                product.id.includes('cube-clicker') ||
+                product.id.includes('smart-switch-air') ||
+                product.id.includes('smart-remote-control') ||
+                product.id.includes('mins-curtain-controller') ||
+                product.id.includes('quicklink-curtain-motor') ||
+                product.id.includes('smart-curtain-motor-v2')
+            );
+            
+            console.log(`New products from ProductsFromDrive: ${newProducts.length}`);
+            console.log('New products:', newProducts.map(p => p.name));
+            
+            // Display products
+            const container = document.getElementById('products-container');
+            
+            newProducts.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.className = 'bg-white rounded-lg shadow-md p-6';
+                productCard.innerHTML = `
+                    <div class="text-center mb-4">
+                        <img src="${product.image}" alt="${product.name}" class="w-full h-48 object-cover rounded-lg mb-4" onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">${product.name}</h3>
+                        <p class="text-gray-600 mb-4">${product.description}</p>
+                        <div class="text-2xl font-bold text-blue-600 mb-4">${product.price} ${product.currency}</div>
+                        <div class="text-sm text-gray-500 mb-4">الكود: ${product.code}</div>
+                        <div class="text-sm text-gray-500">عدد الصور: ${product.images ? product.images.length : 0}</div>
+                    </div>
+                `;
+                container.appendChild(productCard);
+            });
+            
+            if (newProducts.length === 0) {
+                container.innerHTML = '<div class="col-span-full text-center text-gray-500">لم يتم العثور على منتجات جديدة</div>';
+            }
+        });
+    </script>
+</body>
+</html>
+
+

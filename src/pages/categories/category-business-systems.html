@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أنظمة إدارة الأعمال - آفاق المتكاملة لتقنية المعلومات</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+        }
+
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9999;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translate(-50%, -20px);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, 0);
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">
+        <div class="bg-green-600 text-white px-6 py-4 rounded-lg shadow-xl flex items-center gap-3">
+            <i class="fas fa-check-circle text-2xl"></i>
+            <span id="toast-message">تم إضافة المنتج إلى السلة بنجاح!</span>
+        </div>
+    </div>
+
+    <!-- Top Bar Container -->
+    <div id="topbar-container"></div>
+
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Page Header -->
+    <section class="py-20" style="background: linear-gradient(to bottom right, #572a6e, #572a6e, #e4237b)">
+        <div class="container mx-auto px-4">
+            <div class="text-center text-white">
+                <!-- Breadcrumb -->
+                <div class="mb-6 text-sm">
+                    <a href="index.html" class="hover:underline opacity-80">الرئيسية</a>
+                    <span class="mx-2">/</span>
+                    <a href="src/pages/main/store.html" class="hover:underline opacity-80">المتجر</a>
+                    <span class="mx-2">/</span>
+                    <span>أنظمة إدارة الأعمال</span>
+                </div>
+
+                <div class="inline-block bg-white/20 p-6 rounded-full mb-6">
+                    <i class="fas fa-briefcase text-6xl"></i>
+                </div>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">أنظمة إدارة الأعمال</h1>
+                <p class="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
+                    أنظمة ERP و CRM المتكاملة لجميع القطاعات
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Products -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <!-- Products Grid -->
+            <div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Container -->
+    <div id="cta-container"></div>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="src/scripts/core/config.js"></script>
+    <script src="src/scripts/core/components.js"></script>
+    <script src="src/scripts/core/utilities.js"></script>
+    <script src="src/scripts/products/products-data.js"></script>
+    <script src="src/scripts/categories/category.js"></script>
+</body>
+</html>
+

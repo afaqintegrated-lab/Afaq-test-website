@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قطاع الاتصالات - آفاق المتكاملة لتقنية المعلومات</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Top Bar Container -->
+    <div id="topbar-container"></div>
+
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Hero Section -->
+    <section class="py-20 text-white" style="background: linear-gradient(to bottom right, #6366f1, #4f46e5, #7c3aed)">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="mb-6"><i class="fas fa-broadcast-tower text-6xl opacity-90"></i></div>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">حلول قطاع الاتصالات</h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-95">نمكن مشغلي الاتصالات ومقدمي خدمات الإنترنت من تطوير شبكاتهم وخدماتهم من خلال حلول تكنولوجية مبتكرة</p>
+                <div class="flex flex-col md:flex-row gap-6 sm:gap-8 justify-center">
+                    <a href="src/pages/main/contact.html" class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">استشارة تقنية مجانية</a>
+                    <a href="#solutions" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition-colors">تصفح الحلول</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">حلولنا لقطاع الاتصالات</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">نقدم مجموعة شاملة من الحلول التكنولوجية المتطورة لمشغلي الاتصالات ومزودي الخدمات الرقمية</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 5G Networks -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-indigo-600">
+                    <div class="mb-6"><i class="fas fa-network-wired text-4xl text-indigo-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">شبكات الجيل الخامس 5G</h3>
+                    <p class="text-gray-600 mb-6">بناء وتطوير البنية التحتية لشبكات الجيل الخامس بأعلى المعايير العالمية</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>تصميم وتنفيذ شبكات 5G</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>تحسين الأداء والسعة</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>إدارة الطيف الترددي</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>دعم تطبيقات IoT</li>
+                    </ul>
+                    <button class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Network Management Systems -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-indigo-600">
+                    <div class="mb-6"><i class="fas fa-server text-4xl text-indigo-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">أنظمة إدارة الشبكات</h3>
+                    <p class="text-gray-600 mb-6">حلول متقدمة لإدارة ومراقبة شبكات الاتصالات بكفاءة عالية</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>مراقبة الشبكة في الوقت الفعلي</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>إدارة الأداء والجودة</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>كشف الأعطال والإنذار المبكر</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>تحليل البيانات والتقارير</li>
+                    </ul>
+                    <button class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- IoT Platforms -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-indigo-600">
+                    <div class="mb-6"><i class="fas fa-broadcast-tower text-4xl text-indigo-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">منصات إنترنت الأشياء IoT</h3>
+                    <p class="text-gray-600 mb-6">منصات شاملة لإدارة أجهزة إنترنت الأشياء والتطبيقات المتصلة</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>إدارة الأجهزة المتصلة</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>تحليل البيانات في الوقت الفعلي</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>بروتوكولات اتصال متعددة</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>أمن وحماية البيانات</li>
+                    </ul>
+                    <button class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Big Data Analytics -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-indigo-600">
+                    <div class="mb-6"><i class="fas fa-chart-bar text-4xl text-indigo-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">تحليلات البيانات الضخمة</h3>
+                    <p class="text-gray-600 mb-6">أدوات تحليلية متقدمة لاستخلاص رؤى قيمة من بيانات الشبكات والعملاء</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>تحليل سلوك المشتركين</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>تحسين تجربة العملاء</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>التنبؤ بالطلب والاستخدام</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>الكشف عن الاحتيال</li>
+                    </ul>
+                    <button class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Cloud Communications -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-indigo-600">
+                    <div class="mb-6"><i class="fas fa-cloud text-4xl text-indigo-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الاتصالات السحابية</h3>
+                    <p class="text-gray-600 mb-6">حلول اتصالات سحابية متطورة تدعم التحول الرقمي للمؤسسات</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>مراكز اتصال سحابية</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>أنظمة PBX افتراضية</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>خدمات الصوت عبر الإنترنت</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>التكامل مع التطبيقات السحابية</li>
+                    </ul>
+                    <button class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Mobile Telecom Applications -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-indigo-600">
+                    <div class="mb-6"><i class="fas fa-mobile-alt text-4xl text-indigo-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">تطبيقات الاتصالات المتنقلة</h3>
+                    <p class="text-gray-600 mb-6">تطوير تطبيقات متنقلة متقدمة لمشغلي الاتصالات</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>إدارة الحسابات والخدمات</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>الدفع الإلكتروني</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>دعم العملاء الذكي</li>
+                        <li><i class="fas fa-check text-indigo-600 ml-2"></i>العروض والحملات التسويقية</li>
+                    </ul>
+                    <button class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors">اعرف المزيد</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Container -->
+    <div id="cta-container"></div>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="src/scripts/core/config.js"></script>
+    <script src="src/scripts/core/components.js"></script>
+    <script src="src/scripts/core/utilities.js"></script>
+    <script src="src/scripts/sectors/telecommunications.js"></script>
+</body>
+</html>
+

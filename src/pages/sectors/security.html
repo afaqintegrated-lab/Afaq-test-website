@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القطاع الأمني - آفاق المتكاملة لتقنية المعلومات</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Top Bar Container -->
+    <div id="topbar-container"></div>
+
+    <!-- Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Hero Section -->
+    <section class="py-20 text-white" style="background: linear-gradient(to bottom right, #dc2626, #b91c1c, #991b1b)">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="mb-6"><i class="fas fa-shield-alt text-6xl opacity-90"></i></div>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">حلول القطاع الأمني</h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-95">نحمي المؤسسات والأفراد من التهديدات السيبرانية والأمنية من خلال حلول تكنولوجية متقدمة وشاملة</p>
+                <div class="flex flex-col md:flex-row gap-6 sm:gap-8 justify-center">
+                    <a href="src/pages/main/contact.html" class="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">تقييم أمني مجاني</a>
+                    <a href="#solutions" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-600 transition-colors">تصفح الحلول</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">حلولنا للقطاع الأمني</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">نقدم مجموعة شاملة من الحلول الأمنية المتقدمة لحماية البيانات والأنظمة والأفراد من التهديدات المتطورة</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Advanced Cybersecurity -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-red-600">
+                    <div class="mb-6"><i class="fas fa-shield-alt text-4xl text-red-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الأمن السيبراني المتقدم</h3>
+                    <p class="text-gray-600 mb-6">حلول شاملة لحماية الأنظمة والشبكات من التهديدات السيبرانية المتطورة</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>جدران الحماية المتقدمة</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>أنظمة كشف التسلل</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>حماية من البرمجيات الخبيثة</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>تحليل التهديدات في الوقت الفعلي</li>
+                    </ul>
+                    <button class="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Identity & Access Management -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-red-600">
+                    <div class="mb-6"><i class="fas fa-lock text-4xl text-red-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">إدارة الهويات والصلاحيات</h3>
+                    <p class="text-gray-600 mb-6">نظام متطور لإدارة هويات المستخدمين والتحكم في الصلاحيات</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>مصادقة متعددة العوامل</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>إدارة مركزية للهويات</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>التحكم في الوصول</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>مراقبة النشاطات الأمنية</li>
+                    </ul>
+                    <button class="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Data Protection & Encryption -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-red-600">
+                    <div class="mb-6"><i class="fas fa-database text-4xl text-red-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">حماية البيانات والتشفير</h3>
+                    <p class="text-gray-600 mb-6">حلول متقدمة لحماية البيانات الحساسة وتشفيرها</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>تشفير البيانات المتقدم</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>إدارة المفاتيح الأمنية</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>حماية قواعد البيانات</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>منع تسرب البيانات</li>
+                    </ul>
+                    <button class="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Security Operations Center (SOC) -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-red-600">
+                    <div class="mb-6"><i class="fas fa-binoculars text-4xl text-red-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">مراكز العمليات الأمنية SOC</h3>
+                    <p class="text-gray-600 mb-6">مراكز متطورة لمراقبة وإدارة الأمن السيبراني على مدار الساعة</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>مراقبة أمنية 24/7</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>تحليل الأحداث الأمنية</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>الاستجابة للحوادث</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>التقارير والتحليلات</li>
+                    </ul>
+                    <button class="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Security Training & Awareness -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-red-600">
+                    <div class="mb-6"><i class="fas fa-user-shield text-4xl text-red-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">التدريب والتوعية الأمنية</h3>
+                    <p class="text-gray-600 mb-6">برامج تدريبية شاملة لرفع مستوى الوعي الأمني لدى الموظفين</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>تدريب على الأمن السيبراني</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>اختبارات التصيد الاحتيالي</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>سياسات الأمن المعلوماتي</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>شهادات أمنية معتمدة</li>
+                    </ul>
+                    <button class="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition-colors">اعرف المزيد</button>
+                </div>
+
+                <!-- Compliance & Security Governance -->
+                <div class="bg-white rounded-xl shadow-lg p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-4 border-red-600">
+                    <div class="mb-6"><i class="fas fa-clipboard-check text-4xl text-red-600"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الامتثال والحوكمة الأمنية</h3>
+                    <p class="text-gray-600 mb-6">ضمان الامتثال للمعايير واللوائح الأمنية الدولية</p>
+                    <ul class="text-gray-600 space-y-3 mb-6">
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>تقييم الامتثال</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>إدارة السياسات الأمنية</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>التدقيق الأمني</li>
+                        <li><i class="fas fa-check text-red-600 ml-2"></i>إدارة المخاطر الأمنية</li>
+                    </ul>
+                    <button class="w-full bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition-colors">اعرف المزيد</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Container -->
+    <div id="cta-container"></div>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="src/scripts/core/config.js"></script>
+    <script src="src/scripts/core/components.js"></script>
+    <script src="src/scripts/core/utilities.js"></script>
+    <script src="src/scripts/sectors/security.js"></script>
+</body>
+</html>
+
